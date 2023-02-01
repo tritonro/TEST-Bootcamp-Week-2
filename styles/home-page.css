@@ -1,3 +1,23 @@
-p {
-    color: red;
+h1 {
+position: flex;
+-ms-flex-align: center;
+width: 50.4vw;
+: magenta;
+
+/*
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400em;
+font-size: 400em;
+line-height: 484em;
+letter-spacing: 0.1vw;
+
+color: #304772;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+p { 
+    position: flex; 
+    color: #304772;
 }
