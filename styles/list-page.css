@@ -1,1 +1,58 @@
-h1 {color: red;}
+body {
+    background: repeat-y top/ cover url("../imgs/cottagecore.jpg"); /*path doesn't work on github preview ("./" works there but not locally */
+}
+
+button {
+    background-color:rgba(228, 249, 219, 0.5); /*used rgba to make translucent bg without changing txt opacity */
+    width: inherit; 
+    color: inherit; 
+    font-family: inherit;
+    font-style: inherit;
+    border: transparent;
+}
+span { 
+    width: 59 ch;
+    font-weight: 300em;
+    font-size: 1.2vw;
+    letter-spacing: 0.05vw;
+    border: 4px solid blue;
+}
+
+h1 {
+    width: 9ch;
+    font-weight: 300em;
+    font-size: 3vw;
+    letter-spacing: 0.1vw;
+    border: 4px solid green;*/
+    }    
+
+#recipes {
+    width: 80%;
+    margin: 1% 10%;    
+}
+
+#ubeBtn {
+    width: 40%;
+    margin: 1% 10%; 
+    background-color: transparent;
+}
+
+#cookieBtn {
+    width: 40%;
+    margin: 1% 10%;
+    background-color: transparent;
+}
+.general { 
+    display: flex;
+    border: 2px solid red;
+    justify-content: center; /*only works for divs / other containers */
+    position: flex;
+    font-family: "Verdana", "Arial";
+    color: #304772;
+    font-style: normal;
+    text-shadow:(500px, 500px, magenta); /* not working: needs to make stroke */
+    box-sizing: border-box;
+    background-color: rgba(228, 249, 219, 0.5); /*used rgba to make translucent bg without changing txt opacity */
+}
+
+
