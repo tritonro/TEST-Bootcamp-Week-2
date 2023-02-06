@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<!-- saved from url=(0103)https://tech.io/playground-widget/2a13e51e70ee291d4c662ee22e53c7c120785/welcome/1089190/ContainsKeyword -->
+<html lang="en" ng-controller="AppCtrl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style><style type="text/css">.uib-time input{width:50px;}</style><style type="text/css">[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}</style><style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><!--<base href="/">--><base href="."><title data-cg-meta="">ContainsKeyword</title><meta name="description" data-cg-meta="" content="Create interactive content on any technology and share it with the community"><meta name="robots" data-cg-meta="" content="noindex, nofollow"><meta name="viewport" content="initial-scale=0.5,user-scalable=yes"><meta property="og:site_name" content="Tech.io"><meta property="og:type" content="website"><meta property="og:title" data-cg-meta="" content="ContainsKeyword"><meta property="og:description" data-cg-meta="" content="Create interactive content on any technology and share it with the community"><meta property="og:image" data-cg-meta="" content="https://files.tech.io/tech.io/share/techio_share.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" data-cg-meta="" content="ContainsKeyword"><meta name="twitter:description" data-cg-meta="" content="Create interactive content on any technology and share it with the community"><meta name="twitter:image" data-cg-meta="" content="https://files.tech.io/tech.io/share/techio_share.png"><link rel="alternate" type="application/atom+xml" title="Tech.io - Blog - Atom" href="https://tech.io/blog/feed/atom/"><link rel="alternate" type="application/rss+xml" title="Tech.io - Blog - RSS" href="https://tech.io/blog/feed/"><!----><link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABKVBMVEVHcExBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9Ab4nxyAAAAYnRSTlMACwYab3L8AvUsp3PktQdEJAiQ6uO27T3m0TwDIKZxyFEJHfBPRaHZV9cTfxcFhIJkDOlUJZppGZLOOQqpDiebN9+7Pkv5FSG/zJiK20rQfhEW+OciieBA5fToyRhGedrKbfgPK5UAAADISURBVBgZBcGFQsJQAIbRb2Pb3ejuEhO7uwMDFBQs7P/9H8JzACcCAOA6AIS9BABMe2EA2nPREEBofWMWYMk3CzGAWJqiDSTPSGWnJmYimSP2NoHTW1Jb0Unp0OJ8Hyg/DDKSJL0/3lwAVe9FkiQp+3QN2G+NpnMl+X/NxtCGSk0j6EvfUFWtwrPGUA96P0EdiuqSk2/46MDnL8ZXjnherwQGTEBZ+Tjs3JUSlySPuf8qnbQAsAq7a6vbB+mCBQDA/LLrriwC8A80wh+jakFjHAAAAABJRU5ErkJggg=="><link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAACClBMVEVHcExBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9BBo9ANoZcOAAAArXRSTlMAh+v7cLQGAQr90vz+1rMCvWrCiC4OA/k0BECh9GnbttBbfzssvNXdxRC7cbjwKvLz2G8dCByRr5LEFEKOWCIadX2QwMum+A/aBdwkKFSqHrBFgtcTzBEW2RVIw85D9zifZlrnIe7xbOJhhUaTdO+NeKUZU01giRegBwyjMSMyJk4vhPqisXNdmo9RPGW3X17PbbVc5pjKNiVXMCnTM6T2Et9WGPWsv4NoTEHROgFxR9MAAAH9SURBVBgZdcEDY1thAIbRp3GaNEltY661YnW3crZt27ZtG+9/3Nd7k25du3OwzOxgnAsRRs32B5/zj4e6eJyY+dKnF4zxulfKIKZdAc2ZzV/evVdAt4h5o6GIPnsZ5XXrVZYeExOvwY8O5TIqV29LUvWEqHC6s48Pyhkg6lmOXPCokqi5ygPcKvVi8SapOw26dBRblkqBWb06CHi6zxYq+BQ4qWJsh3UJo15lXjZNV3KehjGOaAO2au3CaHOqcapfI85j7NM0bEWKA5oKA4qpPgBsVRG2OLXATI2RkMluxWHbof3s3KIx0lvZqw5sudoT59Q/gvXbtB1buSbmn0VUSAo0JB+rUFTOuuSQX5pHVI1DmzOAujmyJNQAa2doYx0WX7y0nhEZQRn+FEYkSqt8GL6p0hofloiM21hSndJ0DyydLKkAo+2q94qM+967TRhVkpIWsULGSoyey+GsquudeTf7HmRjLJbRzCQZBRgJjZlYMq/dw5gkYyEp/ZIq04B8tWK5owagNl3SsnJYXiGpGDjT4sFS21kCrJY0YwmQOlmSm3FCkpJ8GGmJDskFnpdEnT4BLsmRGMY2pT1e+Tea3TB3wdcB6Dl3yK34aVP4yylX9pd+KJS+QUJXtiuF8UIl8GM+DOYzse/zPBT/Ijw8xH8UlZVFSn8WLPDyx2+jUNuxbXOISAAAAABJRU5ErkJggg=="><link rel="shortcut icon" type="image/x-icon" sizes="32x32" href="https://static.tech.io/assets/favicon_32_32.0b17b69b.ico"><link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="https://static.tech.io/assets/favicon_16_16.79d0ea18.ico"><link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAMAAABlApw1AAAAllBMVEVBo9Dd7/fH5PG83+9asNdMqdP8/v5Bo9D///9Bo9Dz+vx2vd75/P5fstiy2uxIp9Kbz+fZ7fbU6vVRq9Si0uhFpdHi8fhXrtbl8/n2+/3A4fCOyeOKxuJuuduWzOXL5vK33e6FxOFpt9qo1ert9vut2Otxu9zw+Pvq9fqCw+BDpNFmtdnD4vDP6PRjtNl8wN+SyuRUrNVv2C0cAAAACHRSTlPr////////3d4QLOEAAAqWSURBVHja7ZzZlqI6FIZLBfrfDCIoKJbzPJTT+7/cuQiEBCyrBJVyneSiV9sdFvkge97h49/HW49/H/Tm4+Pj3devABSAAlAACkABKAAFoAAUgAJQAApAASgABaAAFIACUAAKoMA4dhrNbXD/dZfRpHHWKwdwGwCAcH/vhSMbAKJp1QBfYMN07ruuFV8Hq1qAU7IO9NrFrlu4lQKMATT2ZwPA4Q45ONoAQsvqAdhWCbCLADMgmgJA89eXtTcANl2i7V2XPQHgCGBMRDQHgPMvrwp8APaMiNoAalUCDAB0iIh2dQDG6ndXTQCAqZ8eYLgVAky4GtFrANbab6kZNlEDwLBCgBqAWPtoawDeL57mzADwFf84AxhVB+AaQC/5sTIATH4nwGFigYcAGtUBzKTbjwDg8ye9dQAQOeIjCKsD+JQ3QB+A/YNPMYes+msA9MoAmrIr4IYAejeXYwHAUviHslJcDsADcBF+OxGA/o0LumsAvmiyRyWluBTAzgbW7G+x/twCwOC2AKy7MS1/JZOqAJzEDtMIp3RTRc4tFzSxdgMGegHgVQWwBTCPd/KabSW3BsALbliA2II5diwKayCqCqDD90steRXMz+xctxohAH/HQcfcn9UqAugD2CfCkIjiCIAxuzZ9CSDS0q224Xr1VBFACBgBEZEGwQIcANSubKKhIOAWkOj/AYBWNQABt6JsPSFzhLrm1U0UhFzkSV8AydublXMmygA4AOrcJeMCTQMAhqCJrGZ9OaMOALMr+NOxQdbLqaEyACe+5iVbkHFk/+EDOPAnz8L+iZ3dQMnOWQNmNQAj7rvV4xX5XEUmAUvs/LARbyC3F/9uctx2JQBNACvukUHwRVsANrFE2Hz9tpNqX4C/pQmAWSUAqQaPkiWZ7FEGvWSD6B6Awz4UgjCNI4WcZ1sJANeierpLmql4mDrRdMMEeiUkgL745IjK69EyAFFii5wUQJTjZivksurz7bVKJzNDsCqVWikB4HKpFddUF6yWoFw/sQlStGQ4iRX8qgJA477/VFhTIo+HJHN4iid/yio0zYumD+LFADMeW52RfwVsob1RkqZoXHkBsexGQmbglQAnrlg64qIQK8seest8rLiSpp6T5FZUBcAn1/tLaVWxQO6vhjVf0tQWfyluBQAtvgea0qpuCqS0g2JHpA6gWwFAh6ckJuKi/JuVjpmXB2iUCWlKAMw5QCOxw/5ye/lReQ2avpkDOFYAsOQZHbaF1nc8RccQAJpJaPBigPS+y7urXVtRiJdlclslAWZcnH+RFs3ID48PmhUCDFNLbN9VMD0b4M74pKItlGohDcDiTpd+ZQKGzoXYqQBglIZdPsK79eBxk1iMcZmQrATANPXju60CC+AX1QBjVwHAsGRaNhk7uyJnTi9dIo33UurCvj6kxKU8wKiykLJZtsLIhldGi5YCWAFYlG742fI078sBKHyAGOvr6pK7NM6lNdvdHyMTXZNemoNyDStlADpyQSwY1CMAm+YNm2z11wDW/ZP8FOxjFQBbucVm2ONxyuQbweiO+RSP+w6s9aYCSzy0pYrpwBAirdrV9TgLYUrE/c+ZDcB3Xw1wNKUHtzKkYNe/4hq0N9KUtMluijv7vR4B4CwAmHzr6gvgSr7hRkJCFP8WAPSDVwIc13J/0zyzONg579TKThHkvwkAdfd1ACcTgJEqPz3Kra55O6GSZteJiHZfAOBfXgXQAQBjKue4sq8gI8f7/BSkb5DVoRbD1wC0AMAWjc/hyurOecfpxlsKGrjZpPBIAD0CsBb7+1zjyurG8lWbK1N62TRTAcekAMAKgHfJhjbi7mF/ulmnn/8XH9I2O9lFvLoCAOdcT5AkAuNubNRWuSmhRtY6Vx9IxiUCbP35AHsbQORmc3R8W7iJlI9yIqBRJr/+mY2x5Wao5wD4kh/A8yKicm8ZOUXqI0m9jIXJckPC/Ha31IMA2gCijL9ZF4p8OlHbSKrAs7nfCw8dh2jBqzcDAWBJOYKvZwM4V25Sl/2D2OYaHa5d+7ESXZNU0kyaK8Q0gfdsAN0AjIyn05ArZDN8N0KSisqZLdQ+/NAy+BgZ6ANAw/3GSPWJaBd+B9AhokD4Lcn5vlfkQMf9AN0NANS0rGkWzFf33LmyenM73cVCJFcpYyVkF7JkBexA1wMA08oowLgsnPsXSb4zejSNJHdMFc93LwCIDy4JzpyTW1Pj2gY6ZT1veydFxrJ/9VR3+px5/2bGQbvY1wDqRESuYIoPcrSzKRLaFwPI6jsh2DJWREH9ugxPM15pS9bOhRKkBSOyCDBGV4UA9nLkfaeFJmfJ8U6feHtctGWlIMAEAOrcmXTXKDDSDo/ZpvCRuIIAlw0ALKZSjHbvSLJbbsdA4d7LolkJjW2TsSZkOAu+AItlxJYvzUoQBeyx2XO2jwZ3rz/u7XKYAlgUPVJZpl+I9SpGDGFyL8CZiEibMM+1UUWRj3YjM0bQiILxfeufE9GsHwdBJU60ljuC0m7G4Xz9FAQhAHi9n1Z+CFlPTvsca1tzFFBVAOkegNlgvcW7w+31t5jZW4zj66JOuRpP+SPp2jKS+ijPtwE0SeAXnXbJ2z/iowD6uSb0y4k50MapTa5zFuIDYyd43/40KH3zB33VwOn0kmShng+43FQwatzqhR3nEXd+3GcZnHN9PXaJlf5S5y11lrmz2vUX/YH2oNs+4bsSqUVIwivdvJJS/7sA02ziqj2WZPjPA+hCqnd80pzR+lpJ4A8DUP2mFXgDAOt7B679FgBXqknXU4l/FuBoXF9/T38TADpx7yK8WJwm1OhdAKjbZKpnoxFNGYF3Duh9AIioO7QsyyUi0k6WtdefdBv1hScF8K4A2mD/1gCzqOyXkSoGaJY6PPYHADql2nX/AEDbR895ayGmB1m2/6EavWjCcIlIF36L/n77kjg/ejyTKNA07UJEtNM0TfCNdu32y5r+jOypPbGZz+b+aD0CDI+dBfV4dX+E+NjhUhDiYHqwAfswCF4CkKvbSRFknGLhRabFkNiRe7baVnIMupEePpjxPExv+EcAZmkaxdj/BGAJFU1j+wKAnmmaNgCYpmkuYwDDZCMkIrqsM1H8LQBHqsgas9dooU8IB1Dr2aMorH9vblmtBevgvQXgA4DZsazOGkXOtDwBQEtCMSKdKfsbACsA6HWJiNo1FPjQzRMAWrmS6Q2AJtJziMcitcoHAdie53mepyW/5WNVNQCm53met8kCeCL9AfcfyHoQQDyGstYXATJfk0gAFmKLzVK0JNUB+DlH8weAhuhjVwRg9vv9fr9xIWItXYtdFmDR58MVAHxx13gF0r9PEOJRrg5Qyzv/CcBS0DzDIi1bTwC4GAAii4jI2f8EsAcAc0hEtF/k+n1fBxDq8UhkERi3Rn1jo8sAbjKHGzImQV+jUd/I9EBVIcTsTKEuFLsbP1nii9QmYmpVAwyJiLSe3FNz05nbC8dvzPvd0acAkN6QzovddqfT02WHAunrYgBbAJEu+m6JN5kE6selZ5rhhHkUPtcunwDMpL+d6/9hs2aatcmqwEpUalEBKAAFoAAUgAJQAApAASgABaAAFIACUAAKQAEoAAWgABSAAlAA7whAbz4+/n289fj3H7maNk67IV9FAAAAAElFTkSuQmCC"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="data:image/png;base64,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"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="data:image/png;base64,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"><link href="./css" rel="stylesheet"><link href="./css(1)" rel="stylesheet"><link href="./css(2)" rel="stylesheet"><!----><link rel="canonical" ng-href="https://tech.io/playground-widget/2a13e51e70ee291d4c662ee22e53c7c120785/welcome/1089190/ContainsKeyword" href="https://tech.io/playground-widget/2a13e51e70ee291d4c662ee22e53c7c120785/welcome/1089190/ContainsKeyword"><script src="./sdk.js.download" async="" crossorigin="anonymous"></script><script src="./cb=gapi.loaded_0" async=""></script><script>window.application={"communityAssetsPrefix":"community/","leftTableOfContentPlaygroundIds":[408,25775,40701],"disqusApiKey":"nFj6QPF1t37nIJ4hsdi5A6mv0aGQisKD3k33nmpEJ8pWPRYB7OkGGStCX6IBnxyz","disqusShortname":"techio","codemachineHost":"coderunner.codingame.com","codemachineViewerUrl":"https://{reference}.codingame-app.com","stormUrl":"https://tech.io","codingEscapeUrl":"https://escape.codingame.com","googleApiKey":"657009003548.apps.googleusercontent.com","facebookApiKey":"165331130336219","slackUrl":"https://betacontributors.slack.com/","forumUrl":"https://forum.codingame.com","forumLoginUrl":"https://forum.tech.io/session/sso?return_path\u003d","forumLogoutUrl":"https://forum.tech.io/session/logout","jobStoreEnabled":true,"chatServerUrl":"chat.codingame.com","chatPort":443,"codingamerCount":3290712,"userEmailDomainIrcChannels":{"(cs\\.)?example\\.edu":"#example344884","example2\\.edu":"#example321354"},"urlRedirects":[{"id":1,"route":"^/the-accountant$","dest":"/hackathon/the-accountant"},{"id":2,"route":"^/games/puzzles/121","dest":"/training/easy/the-descent"},{"id":4,"route":"^/cg$","dest":"/"},{"id":6,"route":"^/hackathon/nokia-openday-2","dest":"/hackathon/nokia-openday"},{"id":8,"route":"^/clashofcode/?$","dest":"/multiplayer/clashofcode"},{"id":9,"route":"^/training/community/erdos-number$","dest":"/training/community/erdos-number"},{"id":10,"route":"^/training/hard/winamax-golf$","dest":"/training/hard/winamax-sponsored-contest-2"},{"id":11,"route":"^/training/medium/winamax-sponsored-contest$","dest":"/training/medium/winamax-battle"},{"id":12,"route":"^/training/hard/winamax-sponsored-contest-2$","dest":"/training/hard/winamax-sponsored-contest"},{"id":13,"route":"^/training/community/binary-neural-network$","dest":"/training/community/binary-neural-network---part-1"},{"id":14,"route":"^/training/community/the-hungry-duck$","dest":"/training/community/the-hungry-duck---part-1"},{"id":15,"route":"^/multiplayer/bot-programming/coders-of-the-carribean$","dest":"/multiplayer/bot-programming/coders-of-the-caribbean"},{"id":16,"route":"^/contests/community-contest-01","dest":"/contests/mean-max"},{"id":17,"route":"^/training/community/fill-the-square!$","dest":"/training/community/fill-the-square"},{"id":18,"route":"^/multiplayer/optimization/bank-of-america$","dest":"/multiplayer/optimization/the-great-dispatch"},{"id":19,"route":"^/ide/980141293426648e9f31adb0881e1e01ae52d38$","dest":"/ide/puzzle/onboarding"},{"id":20,"route":"^/training/community/box-of-cigars$","dest":"/training/community/box-of-cigars---i"},{"id":21,"route":"^/training/community/box-of-cigars---i$","dest":"/training/community/box-of-cigars"},{"id":22,"route":"^/training/community/the-grand-festival$","dest":"/training/community/the-grand-festival---i"},{"id":23,"route":"^/contests/community-contest-02","dest":"/contests/botters-of-the-galaxy"},{"id":24,"route":"^/training/community/flood-fill-simple-example$","dest":"/training/community/flood-fill-example"},{"id":25,"route":"^/games/community","dest":"/training/medium/depot-organization"},{"id":26,"route":"^/hackathon/decathlon-preview","dest":"/hackathon/hackathlon"},{"id":27,"route":"^/contests/community-contest-03","dest":"/contests/code-royale"},{"id":28,"route":"^/multiplayer/bot-programming/code-royale$","dest":"/multiplayer/bot-programming/code-royale-8"},{"id":29,"route":"^/multiplayer/bot-programming/code-royale-8$","dest":"/multiplayer/bot-programming/code-royale"},{"id":30,"route":"^/training/expert/einstein\u0027s-riddle-solver$","dest":"/training/medium/einsteins-riddle-solver"},{"id":31,"route":"^/training/easy/jack-silver:-the-casino-part1$","dest":"/training/easy/jack-silver-the-casino"},{"id":32,"route":"^/training/medium/aneo-demo-397eef024eb61f2da707df8dd6c96c2a2da$","dest":"/training/medium/aneo-demo-df8dd6c96c2a2da"},{"id":33,"route":"^/training/medium/may-the-triforce-be-with-you!$","dest":"/training/easy/may-the-triforce-be-with-you"},{"id":34,"route":"^/hackathon/amadeus-student-challenge","dest":"/hackathon/amadeus-challenge"},{"id":35,"route":"^/training/medium/aneo-demo-df8dd6c96c2a2da$","dest":"/training/medium/aneo"},{"id":36,"route":"^/multiplayer/bot-programming/cok-tmp$","dest":"/multiplayer/bot-programming/code-of-kutulu"},{"id":37,"route":"^/multiplayer/bot-programming/locm-666$","dest":"/multiplayer/bot-programming/locm"},{"id":38,"route":"^/multiplayer/bot-programming/locm$","dest":"/multiplayer/bot-programming/legend-of-code-magic"},{"id":39,"route":"^/multiplayer/bot-programming/legend-of-code-magic$","dest":"/multiplayer/bot-programming/legends-of-code-magic"},{"id":40,"route":"^/hackathon/thales-towers-2018","dest":"/hackathon/thales-hackathon-2018"},{"id":41,"route":"^/contests/community-contest-06","dest":"/contests/a-star-craft"},{"id":43,"route":"^/multiplayer/optimization/a-star-craft-unfinished$","dest":"/multiplayer/optimization/a-star-craft"},{"id":44,"route":"^/training/medium/langton\u0027s-ant$","dest":"/training/medium/langtons-ant"},{"id":45,"route":"^/hackathon/klee-group","dest":"/hackathon/klee"},{"id":46,"route":"^/contests/community-contest-07","dest":"/contests/xmas-rush"},{"id":47,"route":"^/societe-generale","dest":"/hackathon/societe-generale"},{"id":48,"route":"^/training/medium/equaling-arrays$","dest":"/training/medium/equalizing-arrays"},{"id":49,"route":"^/ranking-multiplayer/platinum-rift$","dest":"/leaderboards/puzzle/platinum-rift/global"},{"id":50,"route":"^/contests/community-contest-08","dest":"/contests/code-a-la-mode"},{"id":51,"route":"^/multiplayer/codegolf/chuck-norris-code-golf$","dest":"/multiplayer/codegolf/chuck-norris-codesize"},{"id":52,"route":"^/multiplayer/bot-programming/utg2018-demo-c380c$","dest":"/multiplayer/bot-programming/utg2019-demo-c370c"},{"id":53,"route":"^/contests/worldcup-july-2019","dest":"/contests/detective-pikaptcha"},{"id":54,"route":"^/hackathon/enedis-2019-demo-55oAl421","dest":"/hackathon/enedis-2019-demo-55oal421"},{"id":55,"route":"^/hackathon/enedis-2019-55oAl421","dest":"/hackathon/enedis-2019-55oal421"},{"id":56,"route":"^/contests/july-contest","dest":"/contests/detective-pikaptcha"},{"id":58,"route":"^/training/medium/quarternion-multiplication$","dest":"/training/medium/quaternion-multiplication"},{"id":60,"route":"^/hackathon/unleash-the-geek-2019$","dest":"/hackathon/unleash-the-geek-2019-86477221"},{"id":61,"route":"^/contests/mystery-sponsor$","dest":"/contests/unleash-the-geek-amadeus"},{"id":62,"route":"^/hackathon/facebook-2019$","dest":"/hackathon/facebook-2019-xk7"},{"id":63,"route":"^/leaderboards/challenge/facebook-2019/global$","dest":"/leaderboards/challenge/facebook-2019-xk7/global"},{"id":64,"route":"^/hackathon/ea-2019-tron-plus$","dest":"/hackathon/ea-2019-battlegrounds"},{"id":65,"route":"^/training/easy/advanced-graffiti-on-the-fence$","dest":"/training/easy/graffiti-on-the-fence"},{"id":66,"route":"^/multiplayer/bot-programming/utg2019-demo-c370c$","dest":"/multiplayer/bot-programming/utg2019-demo-c370c-disabled"},{"id":67,"route":"^/sc2020","dest":"/contests/spring-challenge-2020"},{"id":68,"route":"^/fc2020","dest":"/contests/fall-challenge-2020"},{"id":69,"route":"^/hackathon/ubisoft-bordeaux/coding-challenge","dest":"/hackathon/ubisoft-bordeaux-coding-challenge"},{"id":71,"route":"^/multiplayer/bot-programming/appsflyer-510ce8$","dest":"/multiplayer/bot-programming/appsflyer-510ce8-disabled"},{"id":72,"route":"^/sc2021","dest":"/contests/spring-challenge-2021"},{"id":73,"route":"^/multiplayer/bot-programming/7306c92c81ee1c7be241c3d5d2282af54d2$","dest":"/multiplayer/bot-programming/spring-challenge-2021"},{"id":74,"route":"^/training/easy/sum-of-spirals-diagonales$","dest":"/training/easy/sum-of-spirals-diagonals"},{"id":75,"route":"^/training/medium/ancestors-\u0026-descendants$","dest":"/training/medium/ancestors-descendants"},{"id":76,"route":"^/training/medium/ascii-art-:-glass-stacking$","dest":"/training/medium/ascii-art-glass-stacking"},{"id":77,"route":"^/training/medium/divine!$","dest":"/training/medium/divine"},{"id":78,"route":"^/fc2021","dest":"/contests/fall-challenge-2021"},{"id":79,"route":"^/multiplayer/bot-programming/code-keeper---the-hero-beta$","dest":"/multiplayer/bot-programming/code-keeper---the-hero"},{"id":83,"route":"^/multiplayer/bot-programming/coders-strike-back$","dest":"/multiplayer/bot-programming/mad-pod-racing"},{"id":85,"route":"^/multiplayer/optimization/brain-fork$","dest":"/multiplayer/optimization/code-of-the-rings"},{"id":86,"route":"^/multiplayer/bot-programming/soul-snatchers$","dest":"/multiplayer/bot-programming/codebusters"},{"id":87,"route":"^/multiplayer/bot-programming/broomstick-flyers$","dest":"/multiplayer/bot-programming/fantastic-bits"},{"id":89,"route":"^/training/medium/bender-episode-1$","dest":"/training/medium/blunder-episode-1"},{"id":90,"route":"^/training/hard/bender-episode-2$","dest":"/training/hard/blunder-episode-2"},{"id":91,"route":"^/training/hard/bender-episode-3$","dest":"/training/hard/blunder-episode-3"},{"id":92,"route":"^/training/medium/the-last-crusade-episode-1$","dest":"/training/medium/the-fall-episode-1"},{"id":93,"route":"^/training/hard/the-last-crusade-episode-2$","dest":"/training/hard/the-fall-episode-2"},{"id":94,"route":"^/training/expert/the-last-crusade-episode-3$","dest":"/training/expert/the-fall-episode-3"},{"id":95,"route":"^/multiplayer/bot-programming/time-travelers$","dest":"/multiplayer/bot-programming/back-to-the-code"},{"id":96,"route":"^/training/easy/chuck-norris$","dest":"/training/easy/unary"},{"id":97,"route":"^/training/medium/skynet-revolution-episode-1$","dest":"/training/medium/death-first-search-episode-1"},{"id":98,"route":"^/training/hard/skynet-revolution-episode-2$","dest":"/training/hard/death-first-search-episode-2"},{"id":99,"route":"^/sc2022","dest":"contests/spring-challenge-2022"},{"id":132,"route":"^/training/easy/cubic-bezier-curves$","dest":"/training/easy/linear-bezier-curves"},{"id":165,"route":"^/training/easy/linear-bezier-curves$","dest":"/training/easy/cubic-bezier-curves"},{"id":198,"route":"^/training/hard/n-perls-necklace$","dest":"/training/hard/n-pearls-necklace"},{"id":231,"route":"^/training/easy/surrounding-water$","dest":"/training/easy/longest-coast"},{"id":264,"route":"^/training/easy/is-that-a-possible-word-ep1$","dest":"/training/easy/is-that-a-possible-word"},{"id":297,"route":"^/multiplayer/optimization/brain-fork$","dest":"/multiplayer/optimization/code-of-the-rings"},{"id":298,"route":"^/ide/puzzle/brain-fork$","dest":"/ide/puzzle/code-of-the-rings"},{"id":330,"route":"^/multiplayer/bot-programming/fall-challenge-2022$","dest":"/multiplayer/bot-programming/keep-off-the-grass-fall-challenge-2022"},{"id":332,"route":"^/multiplayer/bot-programming/amazonial$","dest":"/multiplayer/bot-programming/wondev-woman"},{"id":333,"route":"^/multiplayer/bot-programming/galleon-wars$","dest":"/multiplayer/bot-programming/coders-of-the-caribbean"},{"id":334,"route":"^/multiplayer/bot-programming/cyborg-uprising$","dest":"/multiplayer/bot-programming/ghost-in-the-cell"},{"id":337,"route":"^/multiplayer/bot-programming/soul-snatchers$","dest":"/multiplayer/bot-programming/codebusters"},{"id":363,"route":"^/multiplayer/bot-programming/line-racing$","dest":"/multiplayer/bot-programming/tron-battle"}],"googleCaptchaKey":"6Lf11wcUAAAAAE5-uVa1hraNn_XmEp5Z3M40uQ9z","googleInvisibleCaptchaKey":"6LdJABoUAAAAAKVXN6wjUbw-CwWSWTyN9sKXDNl1","documentationPlaygroundId":408,"githubApiKey":"510157f40e1344c2cfb3","serverTime":1675270888483,"programmingLanguageNames":{"Swift3":"Swift 3","Cross":"set","Hadoop":"Hadoop Ecosystem","DataScience":"Data Science","Spring":"Spring Framework","Angular":"Angular 2+","WindowsAdmin":"Windows Administration","AngularOld":"Angular-unused","NetworkAdmin":"Network Administration","Python3":"Python 3","Javascript":"JavaScript","ObjectiveC":"Objective-C","Spark":"Apache Spark","Python":"Python 2"},"advertisingConsole":[],"advertisingBanner":[{"imageBinaryId":97384986358040,"link":"https://www.codingame.com/work/codingame-and-coderpad-tech-hiring-survey-2023/"}],"languageServerConfig":{"C#":{"fileUri":{"player":"file:///tmp/project/Player.cs","solution":"file:///tmp/project/Main.cs"},"language":"csharp"},"Java":{"fileUri":{"player":"file:///tmp/project/src/main/java/Player.java","solution":"file:///tmp/project/src/main/java/Solution.java"},"language":"java"},"C++":{"fileUri":{"player":"file:///tmp/project/main.cpp","solution":"file:///tmp/project/main.cpp"},"language":"cpp"},"C":{"fileUri":{"player":"file:///tmp/project/main.c","solution":"file:///tmp/project/main.c"},"language":"c"},"Rust":{"fileUri":{"player":"file:///tmp/project/main.rs","solution":"file:///tmp/project/main.rs"},"language":"rust"},"Scala":{"fileUri":{"player":"file:///tmp/project/src/main/scala/Main.scala","solution":"file:///tmp/project/src/main/scala/Main.scala"},"language":"scala"},"Go":{"fileUri":{"player":"file:///tmp/project/main.go","solution":"file:///tmp/project/main.go"},"language":"go"},"Bash":{"fileUri":{"player":"file:///tmp/project/main.bash","solution":"file:///tmp/project/main.bash"},"language":"bash"},"Groovy":{"fileUri":{"player":"file:///tmp/project/Main.gy","solution":"file:///tmp/project/Main.gy"},"language":"groovy"},"Angular":{"fileUri":{"cross":"file:///tmp/project/main.ts","tester":"file:///tmp/project/src/app/answer.component.test.ts","solution":"file:///tmp/project/src/app/answer.component.ts","validator":"file:///tmp/project/src/app/validator.ts","possibleSolution":"file:///tmp/project/src/app/possible_solution.component.ts"},"language":"angular"},"Kotlin":{"fileUri":{"player":"file:///tmp/project/src/main/kotlin/Main.kt","solution":"file:///tmp/project/src/main/kotlin/Main.kt"},"language":"kotlin"},"OCaml":{"fileUri":{"player":"file:///tmp/project/main.ml","solution":"file:///tmp/project/main.ml"},"language":"ocaml"},"Python3":{"fileUri":{"player":"file:///tmp/project/main.py","solution":"file:///tmp/project/main.py"},"language":"python"},"ObjectiveC":{"fileUri":{"cross":"file:///tmp/project/main.m","tester":"file:///tmp/project/Tester.m","solution":"file:///tmp/project/Answer.m","validator":"file:///tmp/project/Validator.m","possibleSolution":"file:///tmp/project/PossibleAnswer.m"},"language":"objective-c"},"Lua":{"fileUri":{"player":"file:///tmp/project/main.lua","solution":"file:///tmp/project/main.lua"},"language":"lua"},"PHP":{"fileUri":{"player":"file:///tmp/project/main.php","solution":"file:///tmp/project/main.php"},"language":"php"},"Swift":{"fileUri":{"player":"file:///tmp/project/Sources/project/main.swift","solution":"file:///tmp/project/Sources/project/main.swift"},"language":"swift"},"Ruby":{"fileUri":{"player":"file:///tmp/project/main.rb","solution":"file:///tmp/project/main.rb"},"language":"ruby"},"Clojure":{"fileUri":{"player":"file:///tmp/project/Solution.clj","solution":"file:///tmp/project/Solution.clj"},"language":"clojure"},"Dart":{"fileUri":{"player":"file:///tmp/project/main.dart","solution":"file:///tmp/project/main.dart"},"language":"dart"},"Python":{"fileUri":{"player":"file:///tmp/project/main.py","solution":"file:///tmp/project/main.py"},"language":"python"}},"languageServerUrl":"wss://lsp-mutualized-community.codingame.com","initialVisibleLiveStreamsCount":0,"newChatUrl":"wss://new-chat.codingame.com","name":"codingame","codingameUrl":"https://www.codingame.com","completionUrl":"https://completion.codingame.com/completion","pushServerUrl":"https://push-community.codingame.com","mixpanelFilter":"(52\\.1\\.3\\.129)|(52\\.20\\.190\\.26)|(109\\.205\\.6\\.57)|(88\\.188\\.240\\.30)|(34\\.193\\.168\\.145)|(54\\.89\\.200\\.91)|(77\\.136\\.86\\.88)|(52\\.173\\.198\\.76)|(52\\.173\\.247\\.126)|(52\\.176\\.49\\.24)|(52\\.173\\.198\\.86)|(13\\.67\\.140\\.206)|(52\\.176\\.96\\.140)","mixpanelIgnoreEventRegex":"Onboarding|Chat|Solution|Read|View|Scroll|Ping","amplitudeToken":"ecc0b9f76710f07825ed40270d4623e5","userIP":"128.54.40.7","hashedUserIP":"ZsqtmQXgIegja3vhyX+mnESCRuZJCuzLEfiuukbqTXc\u003d","isProd":true},window.session={"countryCode":"US","actionTypes":{"deleteContribution":{"authorPolicy":"ALLOWED"},"receiveCareerNotification":{"authorPolicy":"ROLE"},"deleteComment":{"authorPolicy":"ALLOWED"},"submitMultiContribution":{"authorPolicy":"ROLE"},"sendPingEmailToAll":{"authorPolicy":"ROLE"},"accessCoursesBeta":{"authorPolicy":"ROLE"},"editAcceptedContribution":{"authorPolicy":"ALLOWED"},"hideStream":{"authorPolicy":"ROLE"},"createComment":{"authorPolicy":"ROLE"},"updateAvatar":{"authorPolicy":"ROLE"},"updateAllAvatar":{"authorPolicy":"ROLE"},"accessDisabledLeaderboard":{"authorPolicy":"ROLE"},"createContribution":{"authorPolicy":"ROLE"},"impersonate":{"authorPolicy":"DENIED"},"editComment":{"authorPolicy":"ALLOWED"},"editContribution":{"authorPolicy":"ALLOWED"},"denyPuzzleContribution":{"authorPolicy":"DENIED"},"sendPingEmailToOptinCodingamers":{"authorPolicy":"ROLE"},"denyClashContribution":{"authorPolicy":"DENIED"},"validateClashContribution":{"authorPolicy":"DENIED"},"sendPrivateMessageToAll":{"authorPolicy":"ROLE"},"denyContribution":{"authorPolicy":"DENIED"},"editClashContribution":{"authorPolicy":"ALLOWED"},"updateCover":{"authorPolicy":"ROLE"},"reportAbuse":{"authorPolicy":"DENIED"},"editPuzzleContribution":{"authorPolicy":"ALLOWED"},"sendPrivateMessageToOptinCodingamers":{"authorPolicy":"ROLE"},"editAcceptedPuzzleContribution":{"authorPolicy":"ALLOWED"},"updateCareerSettings":{"authorPolicy":"ROLE"},"editAcceptedClashContribution":{"authorPolicy":"ALLOWED"},"validateContribution":{"authorPolicy":"DENIED"},"validatePuzzleContribution":{"authorPolicy":"DENIED"},"banStreamer":{"authorPolicy":"ROLE"},"updateAllCover":{"authorPolicy":"ROLE"}},"nextVisibleChallenges":[],"visitor":false,"admin":false,"recruiterAdmin":false,"languageId":2,"impersonated":false,"activatedFeatures":[]}</script><script src="./js"></script><script src="./client.js.download" gapi_processed="true"></script><link href="./app-c39b938b.css" rel="stylesheet"><style type="text/css">/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+/** Dialog: Modal Block */
+.monaco-dialog-modal-block {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	left:0;
+	top:0;
+	z-index: 2600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.monaco-dialog-modal-block.dimmed {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+/** Dialog: Container */
+.monaco-dialog-box {
+	display: flex;
+	flex-direction: column-reverse;
+	width: min-content;
+	min-width: 500px;
+	max-width: 90vw;
+	min-height: 75px;
+	padding: 10px;
+	transform: translate3d(0px, 0px, 0px);
+}
+
+/** Dialog: Title Actions Row */
+.monaco-dialog-box .dialog-toolbar-row {
+	height: 22px;
+	padding-bottom: 4px;
+}
+
+.monaco-dialog-box .dialog-toolbar-row .actions-container {
+	justify-content: flex-end;
+}
+
+/** Dialog: Message Row */
+.monaco-dialog-box .dialog-message-row {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.monaco-dialog-box .dialog-message-row > .dialog-icon.codicon {
+	flex: 0 0 48px;
+	height: 48px;
+	align-self: baseline;
+	font-size: 48px;
+}
+
+/** Dialog: Message Container */
+.monaco-dialog-box .dialog-message-row .dialog-message-container {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 24px;
+	user-select: text;
+	-webkit-user-select: text;
+	-ms-user-select: text;
+	word-wrap: break-word; /* never overflow long words, but break to next line */
+	white-space: normal;
+}
+
+/** Dialog: Message */
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message {
+	line-height: 22px;
+	font-size: 18px;
+	flex: 1; /* let the message always grow */
+	white-space: normal;
+	word-wrap: break-word; /* never overflow long words, but break to next line */
+	min-height: 48px; /* matches icon height */
+	margin-bottom: 8px;
+	display: flex;
+	align-items: center;
+}
+
+/** Dialog: Details */
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message-detail {
+	line-height: 22px;
+	flex: 1; /* let the message always grow */
+}
+
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message a:focus {
+	outline-width: 1px;
+	outline-style: solid;
+}
+
+/** Dialog: Checkbox */
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-checkbox-row {
+	padding: 15px 0px 0px;
+	display: flex;
+}
+
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-checkbox-row .dialog-checkbox-message {
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+/** Dialog: Input */
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message-input {
+	padding: 15px 0px 0px;
+	display: flex;
+}
+
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message-input .monaco-inputbox {
+	flex: 1;
+}
+
+/** Dialog: File Path */
+.monaco-dialog-box code {
+	font-family: var(--monaco-monospace-font);
+}
+
+/** Dialog: Buttons Row */
+.monaco-dialog-box > .dialog-buttons-row {
+	display: flex;
+	align-items: center;
+	padding-right: 1px;
+	overflow: hidden; /* buttons row should never overflow */
+}
+
+.monaco-dialog-box > .dialog-buttons-row {
+	display: flex;
+	white-space: nowrap;
+	padding: 20px 10px 10px;
+}
+
+/** Dialog: Buttons */
+.monaco-dialog-box > .dialog-buttons-row > .dialog-buttons {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	overflow: hidden;
+	margin-left: 67px; /* for long buttons, force align with text */
+}
+
+.monaco-dialog-box > .dialog-buttons-row > .dialog-buttons > .monaco-button {
+	width: fit-content;
+	width: -moz-fit-content;
+	padding: 5px 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 4px 5px; /* allows button focus outline to be visible */
+	outline-offset: 2px !important;
+}
+</style><style type="text/css" class="contributedColorTheme">.monaco-workbench { forced-color-adjust: none; }
+.monaco-editor, .monaco-editor-background { background-color: #ffffff; }
+.monaco-editor .inputarea.ime-input { background-color: #ffffff; }
+.monaco-editor, .monaco-editor .inputarea.ime-input { color: #000000; }
+.monaco-editor .margin { background-color: #ffffff; }
+.monaco-editor .rangeHighlight { background-color: rgba(253, 255, 0, 0.2); }
+.monaco-editor .symbolHighlight { background-color: rgba(234, 92, 0, 0.33); }
+.monaco-editor .mtkw { color: rgba(51, 51, 51, 0.2) !important; }
+.monaco-editor .mtkz { color: rgba(51, 51, 51, 0.2) !important; }
+.monaco-editor .line-numbers { color: #237893; }
+.monaco-editor .line-numbers.active-line-number { color: #0b216f; }
+.monaco-editor .view-overlays .current-line { border: 2px solid #eeeeee; }
+.monaco-editor .margin-view-overlays .current-line-margin { border: 2px solid #eeeeee; }
+
+			.monaco-scrollable-element > .shadow.top {
+				box-shadow: #dddddd 0 6px 6px -6px inset;
+			}
+
+			.monaco-scrollable-element > .shadow.left {
+				box-shadow: #dddddd 6px 0 6px -6px inset;
+			}
+
+			.monaco-scrollable-element > .shadow.top.left {
+				box-shadow: #dddddd 6px 6px 6px -6px inset;
+			}
+		
+
+			.monaco-scrollable-element > .scrollbar > .slider {
+				background: rgba(100, 100, 100, 0.4);
+			}
+		
+
+			.monaco-scrollable-element > .scrollbar > .slider:hover {
+				background: rgba(100, 100, 100, 0.7);
+			}
+		
+
+			.monaco-scrollable-element > .scrollbar > .slider.active {
+				background: rgba(0, 0, 0, 0.6);
+			}
+		
+.monaco-editor .lines-content .core-guide-indent { box-shadow: 1px 0 0 0 #d3d3d3 inset; }
+.monaco-editor .lines-content .core-guide-indent-active { box-shadow: 1px 0 0 0 #939393 inset; }
+.monaco-editor .bracket-indent-guide.lvl-0 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-1 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-2 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-3 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-4 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-5 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-6 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-7 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-8 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-9 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-10 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-11 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-12 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-13 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-14 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-15 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-16 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-17 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-18 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-19 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-20 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-21 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-22 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-23 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-24 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-25 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-26 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-27 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-28 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-29 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .vertical { box-shadow: 1px 0 0 0 var(--guide-color) inset; }
+.monaco-editor .horizontal-top { border-top: 1px solid var(--guide-color); }
+.monaco-editor .horizontal-bottom { border-bottom: 1px solid var(--guide-color); }
+.monaco-editor .vertical.indent-active { box-shadow: 1px 0 0 0 var(--guide-color-active) inset; }
+.monaco-editor .horizontal-top.indent-active { border-top: 1px solid var(--guide-color-active); }
+.monaco-editor .horizontal-bottom.indent-active { border-bottom: 1px solid var(--guide-color-active); }
+.monaco-editor .minimap-slider .minimap-slider-horizontal { background: rgba(100, 100, 100, 0.2); }
+.monaco-editor .minimap-slider:hover .minimap-slider-horizontal { background: rgba(100, 100, 100, 0.35); }
+.monaco-editor .minimap-slider.active .minimap-slider-horizontal { background: rgba(0, 0, 0, 0.3); }
+.monaco-editor .minimap-shadow-visible { box-shadow: #dddddd -6px 0 6px -6px inset; }
+.monaco-editor .view-ruler { box-shadow: 1px 0 0 0 #d3d3d3 inset; }
+.monaco-editor .scroll-decoration { box-shadow: #dddddd 0 6px 6px -6px inset; }
+.monaco-editor .focused .selected-text { background-color: #add6ff; }
+.monaco-editor .selected-text { background-color: #e5ebf1; }
+.monaco-editor .inputarea.ime-input { caret-color: #000000; }
+.monaco-editor .cursors-layer .cursor { background-color: #000000; border-color: #000000; color: #ffffff; }
+.monaco-editor .unexpected-closing-bracket { color: rgba(255, 18, 18, 0.8); }
+.monaco-editor .bracket-highlighting-0 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-1 { color: #319331; }
+.monaco-editor .bracket-highlighting-2 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-3 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-4 { color: #319331; }
+.monaco-editor .bracket-highlighting-5 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-6 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-7 { color: #319331; }
+.monaco-editor .bracket-highlighting-8 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-9 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-10 { color: #319331; }
+.monaco-editor .bracket-highlighting-11 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-12 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-13 { color: #319331; }
+.monaco-editor .bracket-highlighting-14 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-15 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-16 { color: #319331; }
+.monaco-editor .bracket-highlighting-17 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-18 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-19 { color: #319331; }
+.monaco-editor .bracket-highlighting-20 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-21 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-22 { color: #319331; }
+.monaco-editor .bracket-highlighting-23 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-24 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-25 { color: #319331; }
+.monaco-editor .bracket-highlighting-26 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-27 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-28 { color: #319331; }
+.monaco-editor .bracket-highlighting-29 { color: #7b3814; }
+.monaco-editor .squiggly-error { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23e51400'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-warning { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23bf8803'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-info { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%231a85ff'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-hint { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22%236c6c6c%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left; }
+.monaco-editor.showUnused .squiggly-inline-unnecessary { opacity: 0.467; }
+.monaco-editor.showDeprecated .squiggly-inline-deprecated { text-decoration: line-through; text-decoration-color: #000000}
+.monaco-diff-editor .diff-review-line-number { color: #237893; }
+.monaco-diff-editor .diff-review-shadow { box-shadow: #dddddd 0 -6px 6px -6px inset; }
+.monaco-editor .char-insert, .monaco-diff-editor .char-insert { background-color: rgba(156, 204, 44, 0.4); }
+.monaco-editor .line-insert, .monaco-diff-editor .line-insert { background-color: rgba(155, 185, 85, 0.2); }
+.monaco-editor .inline-added-margin-view-zone { background-color: rgba(155, 185, 85, 0.2); }
+.monaco-editor .gutter-insert, .monaco-diff-editor .gutter-insert { background-color: rgba(155, 185, 85, 0.2); }
+.monaco-editor .char-delete, .monaco-diff-editor .char-delete { background-color: rgba(255, 0, 0, 0.3); }
+.monaco-editor .line-delete, .monaco-diff-editor .line-delete { background-color: rgba(255, 0, 0, 0.2); }
+.monaco-editor .inline-deleted-margin-view-zone { background-color: rgba(255, 0, 0, 0.2); }
+.monaco-editor .gutter-delete, .monaco-diff-editor .gutter-delete { background-color: rgba(255, 0, 0, 0.2); }
+.monaco-diff-editor.side-by-side .editor.modified { box-shadow: -6px 0 5px -5px #dddddd; }
+
+			.monaco-diff-editor .diffViewport {
+				background: rgba(100, 100, 100, 0.4);
+			}
+		
+
+			.monaco-diff-editor .diffViewport:hover {
+				background: rgba(100, 100, 100, 0.7);
+			}
+		
+
+			.monaco-diff-editor .diffViewport:active {
+				background: rgba(0, 0, 0, 0.6);
+			}
+		
+
+	.monaco-editor .diagonal-fill {
+		background-image: linear-gradient(
+			-45deg,
+			rgba(34, 34, 34, 0.2) 12.5%,
+			#0000 12.5%, #0000 50%,
+			rgba(34, 34, 34, 0.2) 50%, rgba(34, 34, 34, 0.2) 62.5%,
+			#0000 62.5%, #0000 100%
+		);
+		background-size: 8px 8px;
+	}
+	
+.monaco-editor .folded-background { background-color: rgba(173, 214, 255, 0.3); }
+
+		.monaco-editor .cldr.codicon.codicon-folding-expanded,
+		.monaco-editor .cldr.codicon.codicon-folding-collapsed,
+		.monaco-editor .cldr.codicon.codicon-folding-manual-expanded,
+		.monaco-editor .cldr.codicon.codicon-folding-manual-collapsed {
+			color: #424242 !important;
+		}
+		
+.monaco-editor .bracket-match { background-color: rgba(0, 100, 0, 0.1); }
+.monaco-editor .bracket-match { border: 1px solid #b9b9b9; }
+
+		.monaco-editor .contentWidgets .codicon.codicon-light-bulb {
+			color: #ddb100;
+			background-color: rgba(255, 255, 255, 0.7);
+		}
+
+		.monaco-editor .contentWidgets .codicon.codicon-lightbulb-autofix {
+			color: #007acc;
+			background-color: rgba(255, 255, 255, 0.7);
+		}
+.monaco-editor .goto-definition-link { color: #0000ff !important; }
+
+			.monaco-editor .zone-widget .codicon.codicon-error,
+			.markers-panel .marker-icon.codicon.codicon-error,
+			.text-search-provider-messages .providerMessage .codicon.codicon-error,
+			.extensions-viewlet > .extensions .codicon.codicon-error {
+				color: #e51400;
+			}
+		
+
+			.monaco-editor .zone-widget .codicon.codicon-warning,
+			.markers-panel .marker-icon.codicon.codicon-warning,
+			.extensions-viewlet > .extensions .codicon.codicon-warning,
+			.extension-editor .codicon.codicon-warning,
+			.text-search-provider-messages .providerMessage .codicon.codicon-warning,
+			.preferences-editor .codicon.codicon-warning {
+				color: #bf8803;
+			}
+		
+
+			.monaco-editor .zone-widget .codicon.codicon-info,
+			.markers-panel .marker-icon.codicon.codicon-info,
+			.extensions-viewlet > .extensions .codicon.codicon-info,
+			.text-search-provider-messages .providerMessage .codicon.codicon-info,
+			.extension-editor .codicon.codicon-info {
+				color: #1a85ff;
+			}
+		
+.monaco-hover .hover-contents a.code-link span { color: #006ab1; }
+.monaco-hover .hover-contents a.code-link span:hover { color: #006ab1; }
+.monaco-editor .hoverHighlight { background-color: rgba(173, 214, 255, 0.15); }
+.monaco-editor .monaco-hover { background-color: #f3f3f3; }
+.monaco-editor .monaco-hover { border: 1px solid #c8c8c8; }
+.monaco-editor .monaco-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .monaco-hover hr { border-top: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .monaco-hover hr { border-bottom: 0px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .monaco-hover a { color: #006ab1; }
+.monaco-editor .monaco-hover a:hover { color: #006ab1; }
+.monaco-editor .monaco-hover { color: #616161; }
+.monaco-editor .monaco-hover .hover-row .actions { background-color: #e7e7e7; }
+.monaco-editor .monaco-hover code { background-color: rgba(220, 220, 220, 0.4); }
+.monaco-editor .findOptionsWidget { background-color: #f3f3f3; }
+.monaco-editor .findOptionsWidget { color: #616161; }
+.monaco-editor .findOptionsWidget { box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.16); }
+.monaco-editor .findMatch { background-color: rgba(234, 92, 0, 0.33); }
+.monaco-editor .currentFindMatch { background-color: #a8ac94; }
+.monaco-editor .findScope { background-color: rgba(180, 180, 180, 0.3); }
+.monaco-editor .find-widget { background-color: #f3f3f3; }
+.monaco-editor .find-widget { box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.16); }
+.monaco-editor .find-widget { color: #616161; }
+.monaco-editor .find-widget.no-results .matchesCount { color: #a1260d; }
+.monaco-editor .find-widget .monaco-sash { background-color: #c8c8c8; }
+
+		.monaco-editor .find-widget .button:not(.disabled):hover,
+		.monaco-editor .find-widget .codicon-find-selection:hover {
+			background-color: rgba(184, 184, 184, 0.31) !important;
+		}
+	
+.monaco-editor .find-widget .monaco-inputbox.synthetic-focus { outline-color: #0090f1; }
+.codicon.codicon-symbol-array { color: #616161; }
+.codicon.codicon-symbol-boolean { color: #616161; }
+.codicon.codicon-symbol-class { color: #d67e00; }
+.codicon.codicon-symbol-method { color: #652d90; }
+.codicon.codicon-symbol-color { color: #616161; }
+.codicon.codicon-symbol-constant { color: #616161; }
+.codicon.codicon-symbol-constructor { color: #652d90; }
+
+			.codicon.codicon-symbol-value,.codicon.codicon-symbol-enum { color: #d67e00; }
+.codicon.codicon-symbol-enum-member { color: #007acc; }
+.codicon.codicon-symbol-event { color: #d67e00; }
+.codicon.codicon-symbol-field { color: #007acc; }
+.codicon.codicon-symbol-file { color: #616161; }
+.codicon.codicon-symbol-folder { color: #616161; }
+.codicon.codicon-symbol-function { color: #652d90; }
+.codicon.codicon-symbol-interface { color: #007acc; }
+.codicon.codicon-symbol-key { color: #616161; }
+.codicon.codicon-symbol-keyword { color: #616161; }
+.codicon.codicon-symbol-module { color: #616161; }
+.codicon.codicon-symbol-namespace { color: #616161; }
+.codicon.codicon-symbol-null { color: #616161; }
+.codicon.codicon-symbol-number { color: #616161; }
+.codicon.codicon-symbol-object { color: #616161; }
+.codicon.codicon-symbol-operator { color: #616161; }
+.codicon.codicon-symbol-package { color: #616161; }
+.codicon.codicon-symbol-property { color: #616161; }
+.codicon.codicon-symbol-reference { color: #616161; }
+.codicon.codicon-symbol-snippet { color: #616161; }
+.codicon.codicon-symbol-string { color: #616161; }
+.codicon.codicon-symbol-struct { color: #616161; }
+.codicon.codicon-symbol-text { color: #616161; }
+.codicon.codicon-symbol-type-parameter { color: #616161; }
+.codicon.codicon-symbol-unit { color: #616161; }
+.codicon.codicon-symbol-variable { color: #007acc; }
+.monaco-editor .ghost-text-decoration { color: rgba(0, 0, 0, 0.47) !important; }
+.monaco-editor .ghost-text-decoration-preview { color: rgba(0, 0, 0, 0.47) !important; }
+.monaco-editor .suggest-preview-text .ghost-text { color: rgba(0, 0, 0, 0.47) !important; }
+.monaco-editor.vs .valueSetReplacement { outline: solid 2px #b9b9b9; }
+.monaco-editor .linked-editing-decoration { background: rgba(255, 0, 0, 0.3); border-left-color: rgba(255, 0, 0, 0.3); }
+.monaco-editor .detected-link-active { color: #0000ff !important; }
+.monaco-editor .parameter-hints-widget { border: 1px solid #c8c8c8; }
+.monaco-editor .parameter-hints-widget.multiple .body { border-left: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .parameter-hints-widget .signature.has-docs { border-bottom: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .parameter-hints-widget { background-color: #f3f3f3; }
+.monaco-editor .parameter-hints-widget a { color: #006ab1; }
+.monaco-editor .parameter-hints-widget a:hover { color: #006ab1; }
+.monaco-editor .parameter-hints-widget { color: #616161; }
+.monaco-editor .parameter-hints-widget code { background-color: rgba(220, 220, 220, 0.4); }
+.monaco-editor .parameter-hints-widget .parameter.active { color: #0066bf}
+.monaco-link { color: #006ab1; }
+.monaco-link:hover { color: #006ab1; }
+.monaco-editor .focused .selectionHighlight { background-color: rgba(173, 214, 255, 0.5); }
+.monaco-editor .selectionHighlight { background-color: rgba(173, 214, 255, 0.25); }
+.monaco-editor .wordHighlight { background-color: rgba(87, 87, 87, 0.25); }
+.monaco-editor .wordHighlightStrong { background-color: rgba(14, 99, 156, 0.25); }
+.monaco-editor .accessibilityHelpWidget { background-color: #f3f3f3; }
+.monaco-editor .accessibilityHelpWidget { color: #616161; }
+.monaco-editor .accessibilityHelpWidget { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16); }
+.monaco-workbench { --vscode-foreground: #616161;
+--vscode-disabledForeground: rgba(97, 97, 97, 0.5);
+--vscode-errorForeground: #a1260d;
+--vscode-descriptionForeground: #717171;
+--vscode-icon-foreground: #424242;
+--vscode-focusBorder: #0090f1;
+--vscode-textSeparator-foreground: rgba(0, 0, 0, 0.18);
+--vscode-textLink-foreground: #006ab1;
+--vscode-textLink-activeForeground: #006ab1;
+--vscode-textPreformat-foreground: #a31515;
+--vscode-textBlockQuote-background: rgba(127, 127, 127, 0.1);
+--vscode-textBlockQuote-border: rgba(0, 122, 204, 0.5);
+--vscode-textCodeBlock-background: rgba(220, 220, 220, 0.4);
+--vscode-widget-shadow: rgba(0, 0, 0, 0.16);
+--vscode-input-background: #ffffff;
+--vscode-input-foreground: #616161;
+--vscode-inputOption-activeBorder: rgba(0, 122, 204, 0);
+--vscode-inputOption-hoverBackground: rgba(184, 184, 184, 0.31);
+--vscode-inputOption-activeBackground: rgba(0, 144, 241, 0.2);
+--vscode-inputOption-activeForeground: #000000;
+--vscode-input-placeholderForeground: #767676;
+--vscode-inputValidation-infoBackground: #d6ecf2;
+--vscode-inputValidation-infoBorder: #007acc;
+--vscode-inputValidation-warningBackground: #f6f5d2;
+--vscode-inputValidation-warningBorder: #b89500;
+--vscode-inputValidation-errorBackground: #f2dede;
+--vscode-inputValidation-errorBorder: #be1100;
+--vscode-dropdown-background: #ffffff;
+--vscode-dropdown-border: #cecece;
+--vscode-checkbox-background: #ffffff;
+--vscode-checkbox-border: #cecece;
+--vscode-button-foreground: #ffffff;
+--vscode-button-separator: rgba(255, 255, 255, 0.4);
+--vscode-button-background: #007acc;
+--vscode-button-hoverBackground: #0062a3;
+--vscode-button-secondaryForeground: #ffffff;
+--vscode-button-secondaryBackground: #5f6a79;
+--vscode-button-secondaryHoverBackground: #4c5561;
+--vscode-badge-background: #c4c4c4;
+--vscode-badge-foreground: #333333;
+--vscode-scrollbar-shadow: #dddddd;
+--vscode-scrollbarSlider-background: rgba(100, 100, 100, 0.4);
+--vscode-scrollbarSlider-hoverBackground: rgba(100, 100, 100, 0.7);
+--vscode-scrollbarSlider-activeBackground: rgba(0, 0, 0, 0.6);
+--vscode-progressBar-background: #0e70c0;
+--vscode-editorError-foreground: #e51400;
+--vscode-editorWarning-foreground: #bf8803;
+--vscode-editorInfo-foreground: #1a85ff;
+--vscode-editorHint-foreground: #6c6c6c;
+--vscode-sash-hoverBorder: #0090f1;
+--vscode-editor-background: #ffffff;
+--vscode-editor-foreground: #000000;
+--vscode-editorStickyScroll-background: #ffffff;
+--vscode-editorStickyScrollHover-background: #f0f0f0;
+--vscode-editorWidget-background: #f3f3f3;
+--vscode-editorWidget-foreground: #616161;
+--vscode-editorWidget-border: #c8c8c8;
+--vscode-quickInput-background: #f3f3f3;
+--vscode-quickInput-foreground: #616161;
+--vscode-quickInputTitle-background: rgba(0, 0, 0, 0.06);
+--vscode-pickerGroup-foreground: #0066bf;
+--vscode-pickerGroup-border: #cccedb;
+--vscode-keybindingLabel-background: rgba(221, 221, 221, 0.4);
+--vscode-keybindingLabel-foreground: #555555;
+--vscode-keybindingLabel-border: rgba(204, 204, 204, 0.4);
+--vscode-keybindingLabel-bottomBorder: rgba(187, 187, 187, 0.4);
+--vscode-editor-selectionBackground: #add6ff;
+--vscode-editor-inactiveSelectionBackground: #e5ebf1;
+--vscode-editor-selectionHighlightBackground: rgba(173, 214, 255, 0.5);
+--vscode-editor-findMatchBackground: #a8ac94;
+--vscode-editor-findMatchHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editor-findRangeHighlightBackground: rgba(180, 180, 180, 0.3);
+--vscode-searchEditor-findMatchBackground: rgba(234, 92, 0, 0.22);
+--vscode-editor-hoverHighlightBackground: rgba(173, 214, 255, 0.15);
+--vscode-editorHoverWidget-background: #f3f3f3;
+--vscode-editorHoverWidget-foreground: #616161;
+--vscode-editorHoverWidget-border: #c8c8c8;
+--vscode-editorHoverWidget-statusBarBackground: #e7e7e7;
+--vscode-editorLink-activeForeground: #0000ff;
+--vscode-editorInlayHint-foreground: rgba(51, 51, 51, 0.8);
+--vscode-editorInlayHint-background: rgba(196, 196, 196, 0.3);
+--vscode-editorInlayHint-typeForeground: rgba(51, 51, 51, 0.8);
+--vscode-editorInlayHint-typeBackground: rgba(196, 196, 196, 0.3);
+--vscode-editorInlayHint-parameterForeground: rgba(51, 51, 51, 0.8);
+--vscode-editorInlayHint-parameterBackground: rgba(196, 196, 196, 0.3);
+--vscode-editorLightBulb-foreground: #ddb100;
+--vscode-editorLightBulbAutoFix-foreground: #007acc;
+--vscode-diffEditor-insertedTextBackground: rgba(156, 204, 44, 0.4);
+--vscode-diffEditor-removedTextBackground: rgba(255, 0, 0, 0.3);
+--vscode-diffEditor-insertedLineBackground: rgba(155, 185, 85, 0.2);
+--vscode-diffEditor-removedLineBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-diagonalFill: rgba(34, 34, 34, 0.2);
+--vscode-list-focusOutline: #0090f1;
+--vscode-list-focusAndSelectionOutline: #90c2f9;
+--vscode-list-activeSelectionBackground: #0060c0;
+--vscode-list-activeSelectionForeground: #ffffff;
+--vscode-list-activeSelectionIconForeground: #ffffff;
+--vscode-list-inactiveSelectionBackground: #e4e6f1;
+--vscode-list-hoverBackground: #e8e8e8;
+--vscode-list-dropBackground: #d6ebff;
+--vscode-list-highlightForeground: #0066bf;
+--vscode-list-focusHighlightForeground: #bbe7ff;
+--vscode-list-invalidItemForeground: #b89500;
+--vscode-list-errorForeground: #b01011;
+--vscode-list-warningForeground: #855f00;
+--vscode-listFilterWidget-background: #f3f3f3;
+--vscode-listFilterWidget-outline: rgba(0, 0, 0, 0);
+--vscode-listFilterWidget-noMatchesOutline: #be1100;
+--vscode-listFilterWidget-shadow: rgba(0, 0, 0, 0.16);
+--vscode-list-filterMatchBackground: rgba(234, 92, 0, 0.33);
+--vscode-tree-indentGuidesStroke: #a9a9a9;
+--vscode-tree-tableColumnsBorder: rgba(97, 97, 97, 0.13);
+--vscode-tree-tableOddRowsBackground: rgba(97, 97, 97, 0.04);
+--vscode-list-deemphasizedForeground: #8e8e90;
+--vscode-quickInputList-focusForeground: #ffffff;
+--vscode-quickInputList-focusIconForeground: #ffffff;
+--vscode-quickInputList-focusBackground: #0060c0;
+--vscode-menu-foreground: #616161;
+--vscode-menu-background: #ffffff;
+--vscode-menu-selectionForeground: #ffffff;
+--vscode-menu-selectionBackground: #0060c0;
+--vscode-menu-separatorBackground: #d4d4d4;
+--vscode-toolbar-hoverBackground: rgba(184, 184, 184, 0.31);
+--vscode-toolbar-activeBackground: rgba(166, 166, 166, 0.31);
+--vscode-editor-snippetTabstopHighlightBackground: rgba(10, 50, 100, 0.2);
+--vscode-editor-snippetFinalTabstopHighlightBorder: rgba(10, 50, 100, 0.5);
+--vscode-breadcrumb-foreground: rgba(97, 97, 97, 0.8);
+--vscode-breadcrumb-background: #ffffff;
+--vscode-breadcrumb-focusForeground: #4e4e4e;
+--vscode-breadcrumb-activeSelectionForeground: #4e4e4e;
+--vscode-breadcrumbPicker-background: #f3f3f3;
+--vscode-merge-currentHeaderBackground: rgba(64, 200, 174, 0.5);
+--vscode-merge-currentContentBackground: rgba(64, 200, 174, 0.2);
+--vscode-merge-incomingHeaderBackground: rgba(64, 166, 255, 0.5);
+--vscode-merge-incomingContentBackground: rgba(64, 166, 255, 0.2);
+--vscode-merge-commonHeaderBackground: rgba(96, 96, 96, 0.4);
+--vscode-merge-commonContentBackground: rgba(96, 96, 96, 0.16);
+--vscode-editorOverviewRuler-currentContentForeground: rgba(64, 200, 174, 0.5);
+--vscode-editorOverviewRuler-incomingContentForeground: rgba(64, 166, 255, 0.5);
+--vscode-editorOverviewRuler-commonContentForeground: rgba(96, 96, 96, 0.4);
+--vscode-editorOverviewRuler-findMatchForeground: rgba(209, 134, 22, 0.49);
+--vscode-editorOverviewRuler-selectionHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-minimap-findMatchHighlight: #d18616;
+--vscode-minimap-selectionOccurrenceHighlight: #c9c9c9;
+--vscode-minimap-selectionHighlight: #add6ff;
+--vscode-minimap-errorHighlight: rgba(255, 18, 18, 0.7);
+--vscode-minimap-warningHighlight: #bf8803;
+--vscode-minimap-foregroundOpacity: #000000;
+--vscode-minimapSlider-background: rgba(100, 100, 100, 0.2);
+--vscode-minimapSlider-hoverBackground: rgba(100, 100, 100, 0.35);
+--vscode-minimapSlider-activeBackground: rgba(0, 0, 0, 0.3);
+--vscode-problemsErrorIcon-foreground: #e51400;
+--vscode-problemsWarningIcon-foreground: #bf8803;
+--vscode-problemsInfoIcon-foreground: #1a85ff;
+--vscode-charts-foreground: #616161;
+--vscode-charts-lines: rgba(97, 97, 97, 0.5);
+--vscode-charts-red: #e51400;
+--vscode-charts-blue: #1a85ff;
+--vscode-charts-yellow: #bf8803;
+--vscode-charts-orange: #d18616;
+--vscode-charts-green: #388a34;
+--vscode-charts-purple: #652d90;
+--vscode-editor-lineHighlightBorder: #eeeeee;
+--vscode-editor-rangeHighlightBackground: rgba(253, 255, 0, 0.2);
+--vscode-editor-symbolHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editorCursor-foreground: #000000;
+--vscode-editorWhitespace-foreground: rgba(51, 51, 51, 0.2);
+--vscode-editorIndentGuide-background: #d3d3d3;
+--vscode-editorIndentGuide-activeBackground: #939393;
+--vscode-editorLineNumber-foreground: #237893;
+--vscode-editorActiveLineNumber-foreground: #0b216f;
+--vscode-editorLineNumber-activeForeground: #0b216f;
+--vscode-editorRuler-foreground: #d3d3d3;
+--vscode-editorCodeLens-foreground: #919191;
+--vscode-editorBracketMatch-background: rgba(0, 100, 0, 0.1);
+--vscode-editorBracketMatch-border: #b9b9b9;
+--vscode-editorOverviewRuler-border: rgba(127, 127, 127, 0.3);
+--vscode-editorGutter-background: #ffffff;
+--vscode-editorUnnecessaryCode-opacity: rgba(0, 0, 0, 0.47);
+--vscode-editorGhostText-foreground: rgba(0, 0, 0, 0.47);
+--vscode-editorOverviewRuler-rangeHighlightForeground: rgba(0, 122, 204, 0.6);
+--vscode-editorOverviewRuler-errorForeground: rgba(255, 18, 18, 0.7);
+--vscode-editorOverviewRuler-warningForeground: #bf8803;
+--vscode-editorOverviewRuler-infoForeground: #1a85ff;
+--vscode-editorBracketHighlight-foreground1: #0431fa;
+--vscode-editorBracketHighlight-foreground2: #319331;
+--vscode-editorBracketHighlight-foreground3: #7b3814;
+--vscode-editorBracketHighlight-foreground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground6: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-unexpectedBracket-foreground: rgba(255, 18, 18, 0.8);
+--vscode-editorBracketPairGuide-background1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background6: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground6: rgba(0, 0, 0, 0);
+--vscode-editorUnicodeHighlight-border: #cea33d;
+--vscode-editorUnicodeHighlight-background: rgba(206, 163, 61, 0.08);
+--vscode-editor-foldBackground: rgba(173, 214, 255, 0.3);
+--vscode-editorGutter-foldingControlForeground: #424242;
+--vscode-editorOverviewRuler-bracketMatchForeground: #a0a0a0;
+--vscode-peekViewTitle-background: rgba(26, 133, 255, 0.1);
+--vscode-peekViewTitleLabel-foreground: #000000;
+--vscode-peekViewTitleDescription-foreground: #616161;
+--vscode-peekView-border: #1a85ff;
+--vscode-peekViewResult-background: #f3f3f3;
+--vscode-peekViewResult-lineForeground: #646465;
+--vscode-peekViewResult-fileForeground: #1e1e1e;
+--vscode-peekViewResult-selectionBackground: rgba(51, 153, 255, 0.2);
+--vscode-peekViewResult-selectionForeground: #6c6c6c;
+--vscode-peekViewEditor-background: #f2f8fc;
+--vscode-peekViewEditorGutter-background: #f2f8fc;
+--vscode-peekViewResult-matchHighlightBackground: rgba(234, 92, 0, 0.3);
+--vscode-peekViewEditor-matchHighlightBackground: rgba(245, 216, 2, 0.87);
+--vscode-editorMarkerNavigationError-background: #e51400;
+--vscode-editorMarkerNavigationError-headerBackground: rgba(229, 20, 0, 0.1);
+--vscode-editorMarkerNavigationWarning-background: #bf8803;
+--vscode-editorMarkerNavigationWarning-headerBackground: rgba(191, 136, 3, 0.1);
+--vscode-editorMarkerNavigationInfo-background: #1a85ff;
+--vscode-editorMarkerNavigationInfo-headerBackground: rgba(26, 133, 255, 0.1);
+--vscode-editorMarkerNavigation-background: #ffffff;
+--vscode-symbolIcon-arrayForeground: #616161;
+--vscode-symbolIcon-booleanForeground: #616161;
+--vscode-symbolIcon-classForeground: #d67e00;
+--vscode-symbolIcon-colorForeground: #616161;
+--vscode-symbolIcon-constantForeground: #616161;
+--vscode-symbolIcon-constructorForeground: #652d90;
+--vscode-symbolIcon-enumeratorForeground: #d67e00;
+--vscode-symbolIcon-enumeratorMemberForeground: #007acc;
+--vscode-symbolIcon-eventForeground: #d67e00;
+--vscode-symbolIcon-fieldForeground: #007acc;
+--vscode-symbolIcon-fileForeground: #616161;
+--vscode-symbolIcon-folderForeground: #616161;
+--vscode-symbolIcon-functionForeground: #652d90;
+--vscode-symbolIcon-interfaceForeground: #007acc;
+--vscode-symbolIcon-keyForeground: #616161;
+--vscode-symbolIcon-keywordForeground: #616161;
+--vscode-symbolIcon-methodForeground: #652d90;
+--vscode-symbolIcon-moduleForeground: #616161;
+--vscode-symbolIcon-namespaceForeground: #616161;
+--vscode-symbolIcon-nullForeground: #616161;
+--vscode-symbolIcon-numberForeground: #616161;
+--vscode-symbolIcon-objectForeground: #616161;
+--vscode-symbolIcon-operatorForeground: #616161;
+--vscode-symbolIcon-packageForeground: #616161;
+--vscode-symbolIcon-propertyForeground: #616161;
+--vscode-symbolIcon-referenceForeground: #616161;
+--vscode-symbolIcon-snippetForeground: #616161;
+--vscode-symbolIcon-stringForeground: #616161;
+--vscode-symbolIcon-structForeground: #616161;
+--vscode-symbolIcon-textForeground: #616161;
+--vscode-symbolIcon-typeParameterForeground: #616161;
+--vscode-symbolIcon-unitForeground: #616161;
+--vscode-symbolIcon-variableForeground: #007acc;
+--vscode-editorSuggestWidget-background: #f3f3f3;
+--vscode-editorSuggestWidget-border: #c8c8c8;
+--vscode-editorSuggestWidget-foreground: #000000;
+--vscode-editorSuggestWidget-selectedForeground: #ffffff;
+--vscode-editorSuggestWidget-selectedIconForeground: #ffffff;
+--vscode-editorSuggestWidget-selectedBackground: #0060c0;
+--vscode-editorSuggestWidget-highlightForeground: #0066bf;
+--vscode-editorSuggestWidget-focusHighlightForeground: #bbe7ff;
+--vscode-editorSuggestWidgetStatus-foreground: rgba(0, 0, 0, 0.5);
+--vscode-editor-linkedEditingBackground: rgba(255, 0, 0, 0.3);
+--vscode-editorHoverWidget-highlightForeground: #0066bf;
+--vscode-editor-wordHighlightBackground: rgba(87, 87, 87, 0.25);
+--vscode-editor-wordHighlightStrongBackground: rgba(14, 99, 156, 0.25);
+--vscode-editorOverviewRuler-wordHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-editorOverviewRuler-wordHighlightStrongForeground: rgba(192, 160, 192, 0.8);
+--vscode-statusBar-foreground: #20252a;
+--vscode-statusBar-background: #ffffff;
+--vscode-statusBar-border: #dadada; }</style><style type="text/css" media="screen" id="codiconStyles">.codicon-add:before { content: '\ea60'; }
+.codicon-plus:before { content: '\ea60'; }
+.codicon-gist-new:before { content: '\ea60'; }
+.codicon-repo-create:before { content: '\ea60'; }
+.codicon-lightbulb:before { content: '\ea61'; }
+.codicon-light-bulb:before { content: '\ea61'; }
+.codicon-repo:before { content: '\ea62'; }
+.codicon-repo-delete:before { content: '\ea62'; }
+.codicon-gist-fork:before { content: '\ea63'; }
+.codicon-repo-forked:before { content: '\ea63'; }
+.codicon-git-pull-request:before { content: '\ea64'; }
+.codicon-git-pull-request-abandoned:before { content: '\ea64'; }
+.codicon-record-keys:before { content: '\ea65'; }
+.codicon-keyboard:before { content: '\ea65'; }
+.codicon-tag:before { content: '\ea66'; }
+.codicon-tag-add:before { content: '\ea66'; }
+.codicon-tag-remove:before { content: '\ea66'; }
+.codicon-person:before { content: '\ea67'; }
+.codicon-person-follow:before { content: '\ea67'; }
+.codicon-person-outline:before { content: '\ea67'; }
+.codicon-person-filled:before { content: '\ea67'; }
+.codicon-git-branch:before { content: '\ea68'; }
+.codicon-git-branch-create:before { content: '\ea68'; }
+.codicon-git-branch-delete:before { content: '\ea68'; }
+.codicon-source-control:before { content: '\ea68'; }
+.codicon-mirror:before { content: '\ea69'; }
+.codicon-mirror-public:before { content: '\ea69'; }
+.codicon-star:before { content: '\ea6a'; }
+.codicon-star-add:before { content: '\ea6a'; }
+.codicon-star-delete:before { content: '\ea6a'; }
+.codicon-star-empty:before { content: '\ea6a'; }
+.codicon-comment:before { content: '\ea6b'; }
+.codicon-comment-add:before { content: '\ea6b'; }
+.codicon-alert:before { content: '\ea6c'; }
+.codicon-warning:before { content: '\ea6c'; }
+.codicon-search:before { content: '\ea6d'; }
+.codicon-search-save:before { content: '\ea6d'; }
+.codicon-log-out:before { content: '\ea6e'; }
+.codicon-sign-out:before { content: '\ea6e'; }
+.codicon-log-in:before { content: '\ea6f'; }
+.codicon-sign-in:before { content: '\ea6f'; }
+.codicon-eye:before { content: '\ea70'; }
+.codicon-eye-unwatch:before { content: '\ea70'; }
+.codicon-eye-watch:before { content: '\ea70'; }
+.codicon-circle-filled:before { content: '\ea71'; }
+.codicon-primitive-dot:before { content: '\ea71'; }
+.codicon-close-dirty:before { content: '\ea71'; }
+.codicon-debug-breakpoint:before { content: '\ea71'; }
+.codicon-debug-breakpoint-disabled:before { content: '\ea71'; }
+.codicon-debug-hint:before { content: '\ea71'; }
+.codicon-primitive-square:before { content: '\ea72'; }
+.codicon-edit:before { content: '\ea73'; }
+.codicon-pencil:before { content: '\ea73'; }
+.codicon-info:before { content: '\ea74'; }
+.codicon-issue-opened:before { content: '\ea74'; }
+.codicon-gist-private:before { content: '\ea75'; }
+.codicon-git-fork-private:before { content: '\ea75'; }
+.codicon-lock:before { content: '\ea75'; }
+.codicon-mirror-private:before { content: '\ea75'; }
+.codicon-close:before { content: '\ea76'; }
+.codicon-remove-close:before { content: '\ea76'; }
+.codicon-x:before { content: '\ea76'; }
+.codicon-repo-sync:before { content: '\ea77'; }
+.codicon-sync:before { content: '\ea77'; }
+.codicon-clone:before { content: '\ea78'; }
+.codicon-desktop-download:before { content: '\ea78'; }
+.codicon-beaker:before { content: '\ea79'; }
+.codicon-microscope:before { content: '\ea79'; }
+.codicon-vm:before { content: '\ea7a'; }
+.codicon-device-desktop:before { content: '\ea7a'; }
+.codicon-file:before { content: '\ea7b'; }
+.codicon-file-text:before { content: '\ea7b'; }
+.codicon-more:before { content: '\ea7c'; }
+.codicon-ellipsis:before { content: '\ea7c'; }
+.codicon-kebab-horizontal:before { content: '\ea7c'; }
+.codicon-mail-reply:before { content: '\ea7d'; }
+.codicon-reply:before { content: '\ea7d'; }
+.codicon-organization:before { content: '\ea7e'; }
+.codicon-organization-filled:before { content: '\ea7e'; }
+.codicon-organization-outline:before { content: '\ea7e'; }
+.codicon-new-file:before { content: '\ea7f'; }
+.codicon-file-add:before { content: '\ea7f'; }
+.codicon-new-folder:before { content: '\ea80'; }
+.codicon-file-directory-create:before { content: '\ea80'; }
+.codicon-trash:before { content: '\ea81'; }
+.codicon-trashcan:before { content: '\ea81'; }
+.codicon-history:before { content: '\ea82'; }
+.codicon-clock:before { content: '\ea82'; }
+.codicon-folder:before { content: '\ea83'; }
+.codicon-file-directory:before { content: '\ea83'; }
+.codicon-symbol-folder:before { content: '\ea83'; }
+.codicon-logo-github:before { content: '\ea84'; }
+.codicon-mark-github:before { content: '\ea84'; }
+.codicon-github:before { content: '\ea84'; }
+.codicon-terminal:before { content: '\ea85'; }
+.codicon-console:before { content: '\ea85'; }
+.codicon-repl:before { content: '\ea85'; }
+.codicon-zap:before { content: '\ea86'; }
+.codicon-symbol-event:before { content: '\ea86'; }
+.codicon-error:before { content: '\ea87'; }
+.codicon-stop:before { content: '\ea87'; }
+.codicon-variable:before { content: '\ea88'; }
+.codicon-symbol-variable:before { content: '\ea88'; }
+.codicon-array:before { content: '\ea8a'; }
+.codicon-symbol-array:before { content: '\ea8a'; }
+.codicon-symbol-module:before { content: '\ea8b'; }
+.codicon-symbol-package:before { content: '\ea8b'; }
+.codicon-symbol-namespace:before { content: '\ea8b'; }
+.codicon-symbol-object:before { content: '\ea8b'; }
+.codicon-symbol-method:before { content: '\ea8c'; }
+.codicon-symbol-function:before { content: '\ea8c'; }
+.codicon-symbol-constructor:before { content: '\ea8c'; }
+.codicon-symbol-boolean:before { content: '\ea8f'; }
+.codicon-symbol-null:before { content: '\ea8f'; }
+.codicon-symbol-numeric:before { content: '\ea90'; }
+.codicon-symbol-number:before { content: '\ea90'; }
+.codicon-symbol-structure:before { content: '\ea91'; }
+.codicon-symbol-struct:before { content: '\ea91'; }
+.codicon-symbol-parameter:before { content: '\ea92'; }
+.codicon-symbol-type-parameter:before { content: '\ea92'; }
+.codicon-symbol-key:before { content: '\ea93'; }
+.codicon-symbol-text:before { content: '\ea93'; }
+.codicon-symbol-reference:before { content: '\ea94'; }
+.codicon-go-to-file:before { content: '\ea94'; }
+.codicon-symbol-enum:before { content: '\ea95'; }
+.codicon-symbol-value:before { content: '\ea95'; }
+.codicon-symbol-ruler:before { content: '\ea96'; }
+.codicon-symbol-unit:before { content: '\ea96'; }
+.codicon-activate-breakpoints:before { content: '\ea97'; }
+.codicon-archive:before { content: '\ea98'; }
+.codicon-arrow-both:before { content: '\ea99'; }
+.codicon-arrow-down:before { content: '\ea9a'; }
+.codicon-arrow-left:before { content: '\ea9b'; }
+.codicon-arrow-right:before { content: '\ea9c'; }
+.codicon-arrow-small-down:before { content: '\ea9d'; }
+.codicon-arrow-small-left:before { content: '\ea9e'; }
+.codicon-arrow-small-right:before { content: '\ea9f'; }
+.codicon-arrow-small-up:before { content: '\eaa0'; }
+.codicon-arrow-up:before { content: '\eaa1'; }
+.codicon-bell:before { content: '\eaa2'; }
+.codicon-bold:before { content: '\eaa3'; }
+.codicon-book:before { content: '\eaa4'; }
+.codicon-bookmark:before { content: '\eaa5'; }
+.codicon-debug-breakpoint-conditional-unverified:before { content: '\eaa6'; }
+.codicon-debug-breakpoint-conditional:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-conditional-disabled:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-data-unverified:before { content: '\eaa8'; }
+.codicon-debug-breakpoint-data:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-data-disabled:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-log-unverified:before { content: '\eaaa'; }
+.codicon-debug-breakpoint-log:before { content: '\eaab'; }
+.codicon-debug-breakpoint-log-disabled:before { content: '\eaab'; }
+.codicon-briefcase:before { content: '\eaac'; }
+.codicon-broadcast:before { content: '\eaad'; }
+.codicon-browser:before { content: '\eaae'; }
+.codicon-bug:before { content: '\eaaf'; }
+.codicon-calendar:before { content: '\eab0'; }
+.codicon-case-sensitive:before { content: '\eab1'; }
+.codicon-check:before { content: '\eab2'; }
+.codicon-checklist:before { content: '\eab3'; }
+.codicon-chevron-down:before { content: '\eab4'; }
+.codicon-drop-down-button:before { content: '\eab4'; }
+.codicon-chevron-left:before { content: '\eab5'; }
+.codicon-chevron-right:before { content: '\eab6'; }
+.codicon-chevron-up:before { content: '\eab7'; }
+.codicon-chrome-close:before { content: '\eab8'; }
+.codicon-chrome-maximize:before { content: '\eab9'; }
+.codicon-chrome-minimize:before { content: '\eaba'; }
+.codicon-chrome-restore:before { content: '\eabb'; }
+.codicon-circle-outline:before { content: '\eabc'; }
+.codicon-debug-breakpoint-unverified:before { content: '\eabc'; }
+.codicon-circle-slash:before { content: '\eabd'; }
+.codicon-circuit-board:before { content: '\eabe'; }
+.codicon-clear-all:before { content: '\eabf'; }
+.codicon-clippy:before { content: '\eac0'; }
+.codicon-close-all:before { content: '\eac1'; }
+.codicon-cloud-download:before { content: '\eac2'; }
+.codicon-cloud-upload:before { content: '\eac3'; }
+.codicon-code:before { content: '\eac4'; }
+.codicon-collapse-all:before { content: '\eac5'; }
+.codicon-color-mode:before { content: '\eac6'; }
+.codicon-comment-discussion:before { content: '\eac7'; }
+.codicon-compare-changes:before { content: '\eafd'; }
+.codicon-credit-card:before { content: '\eac9'; }
+.codicon-dash:before { content: '\eacc'; }
+.codicon-dashboard:before { content: '\eacd'; }
+.codicon-database:before { content: '\eace'; }
+.codicon-debug-continue:before { content: '\eacf'; }
+.codicon-debug-disconnect:before { content: '\ead0'; }
+.codicon-debug-pause:before { content: '\ead1'; }
+.codicon-debug-restart:before { content: '\ead2'; }
+.codicon-debug-start:before { content: '\ead3'; }
+.codicon-debug-step-into:before { content: '\ead4'; }
+.codicon-debug-step-out:before { content: '\ead5'; }
+.codicon-debug-step-over:before { content: '\ead6'; }
+.codicon-debug-stop:before { content: '\ead7'; }
+.codicon-debug:before { content: '\ead8'; }
+.codicon-device-camera-video:before { content: '\ead9'; }
+.codicon-device-camera:before { content: '\eada'; }
+.codicon-device-mobile:before { content: '\eadb'; }
+.codicon-diff-added:before { content: '\eadc'; }
+.codicon-diff-ignored:before { content: '\eadd'; }
+.codicon-diff-modified:before { content: '\eade'; }
+.codicon-diff-removed:before { content: '\eadf'; }
+.codicon-diff-renamed:before { content: '\eae0'; }
+.codicon-diff:before { content: '\eae1'; }
+.codicon-discard:before { content: '\eae2'; }
+.codicon-editor-layout:before { content: '\eae3'; }
+.codicon-empty-window:before { content: '\eae4'; }
+.codicon-exclude:before { content: '\eae5'; }
+.codicon-extensions:before { content: '\eae6'; }
+.codicon-eye-closed:before { content: '\eae7'; }
+.codicon-file-binary:before { content: '\eae8'; }
+.codicon-file-code:before { content: '\eae9'; }
+.codicon-file-media:before { content: '\eaea'; }
+.codicon-file-pdf:before { content: '\eaeb'; }
+.codicon-file-submodule:before { content: '\eaec'; }
+.codicon-file-symlink-directory:before { content: '\eaed'; }
+.codicon-file-symlink-file:before { content: '\eaee'; }
+.codicon-file-zip:before { content: '\eaef'; }
+.codicon-files:before { content: '\eaf0'; }
+.codicon-filter:before { content: '\eaf1'; }
+.codicon-flame:before { content: '\eaf2'; }
+.codicon-fold-down:before { content: '\eaf3'; }
+.codicon-fold-up:before { content: '\eaf4'; }
+.codicon-fold:before { content: '\eaf5'; }
+.codicon-folder-active:before { content: '\eaf6'; }
+.codicon-folder-opened:before { content: '\eaf7'; }
+.codicon-gear:before { content: '\eaf8'; }
+.codicon-gift:before { content: '\eaf9'; }
+.codicon-gist-secret:before { content: '\eafa'; }
+.codicon-gist:before { content: '\eafb'; }
+.codicon-git-commit:before { content: '\eafc'; }
+.codicon-git-compare:before { content: '\eafd'; }
+.codicon-git-merge:before { content: '\eafe'; }
+.codicon-github-action:before { content: '\eaff'; }
+.codicon-github-alt:before { content: '\eb00'; }
+.codicon-globe:before { content: '\eb01'; }
+.codicon-grabber:before { content: '\eb02'; }
+.codicon-graph:before { content: '\eb03'; }
+.codicon-gripper:before { content: '\eb04'; }
+.codicon-heart:before { content: '\eb05'; }
+.codicon-home:before { content: '\eb06'; }
+.codicon-horizontal-rule:before { content: '\eb07'; }
+.codicon-hubot:before { content: '\eb08'; }
+.codicon-inbox:before { content: '\eb09'; }
+.codicon-issue-closed:before { content: '\eba4'; }
+.codicon-issue-reopened:before { content: '\eb0b'; }
+.codicon-issues:before { content: '\eb0c'; }
+.codicon-italic:before { content: '\eb0d'; }
+.codicon-jersey:before { content: '\eb0e'; }
+.codicon-json:before { content: '\eb0f'; }
+.codicon-kebab-vertical:before { content: '\eb10'; }
+.codicon-key:before { content: '\eb11'; }
+.codicon-law:before { content: '\eb12'; }
+.codicon-lightbulb-autofix:before { content: '\eb13'; }
+.codicon-link-external:before { content: '\eb14'; }
+.codicon-link:before { content: '\eb15'; }
+.codicon-list-ordered:before { content: '\eb16'; }
+.codicon-list-unordered:before { content: '\eb17'; }
+.codicon-live-share:before { content: '\eb18'; }
+.codicon-loading:before { content: '\eb19'; }
+.codicon-location:before { content: '\eb1a'; }
+.codicon-mail-read:before { content: '\eb1b'; }
+.codicon-mail:before { content: '\eb1c'; }
+.codicon-markdown:before { content: '\eb1d'; }
+.codicon-megaphone:before { content: '\eb1e'; }
+.codicon-mention:before { content: '\eb1f'; }
+.codicon-milestone:before { content: '\eb20'; }
+.codicon-mortar-board:before { content: '\eb21'; }
+.codicon-move:before { content: '\eb22'; }
+.codicon-multiple-windows:before { content: '\eb23'; }
+.codicon-mute:before { content: '\eb24'; }
+.codicon-no-newline:before { content: '\eb25'; }
+.codicon-note:before { content: '\eb26'; }
+.codicon-octoface:before { content: '\eb27'; }
+.codicon-open-preview:before { content: '\eb28'; }
+.codicon-package:before { content: '\eb29'; }
+.codicon-paintcan:before { content: '\eb2a'; }
+.codicon-pin:before { content: '\eb2b'; }
+.codicon-play:before { content: '\eb2c'; }
+.codicon-run:before { content: '\eb2c'; }
+.codicon-plug:before { content: '\eb2d'; }
+.codicon-preserve-case:before { content: '\eb2e'; }
+.codicon-preview:before { content: '\eb2f'; }
+.codicon-project:before { content: '\eb30'; }
+.codicon-pulse:before { content: '\eb31'; }
+.codicon-question:before { content: '\eb32'; }
+.codicon-quote:before { content: '\eb33'; }
+.codicon-radio-tower:before { content: '\eb34'; }
+.codicon-reactions:before { content: '\eb35'; }
+.codicon-references:before { content: '\eb36'; }
+.codicon-refresh:before { content: '\eb37'; }
+.codicon-regex:before { content: '\eb38'; }
+.codicon-remote-explorer:before { content: '\eb39'; }
+.codicon-remote:before { content: '\eb3a'; }
+.codicon-remove:before { content: '\eb3b'; }
+.codicon-replace-all:before { content: '\eb3c'; }
+.codicon-replace:before { content: '\eb3d'; }
+.codicon-repo-clone:before { content: '\eb3e'; }
+.codicon-repo-force-push:before { content: '\eb3f'; }
+.codicon-repo-pull:before { content: '\eb40'; }
+.codicon-repo-push:before { content: '\eb41'; }
+.codicon-report:before { content: '\eb42'; }
+.codicon-request-changes:before { content: '\eb43'; }
+.codicon-rocket:before { content: '\eb44'; }
+.codicon-root-folder-opened:before { content: '\eb45'; }
+.codicon-root-folder:before { content: '\eb46'; }
+.codicon-rss:before { content: '\eb47'; }
+.codicon-ruby:before { content: '\eb48'; }
+.codicon-save-all:before { content: '\eb49'; }
+.codicon-save-as:before { content: '\eb4a'; }
+.codicon-save:before { content: '\eb4b'; }
+.codicon-screen-full:before { content: '\eb4c'; }
+.codicon-screen-normal:before { content: '\eb4d'; }
+.codicon-search-stop:before { content: '\eb4e'; }
+.codicon-server:before { content: '\eb50'; }
+.codicon-settings-gear:before { content: '\eb51'; }
+.codicon-settings:before { content: '\eb52'; }
+.codicon-shield:before { content: '\eb53'; }
+.codicon-smiley:before { content: '\eb54'; }
+.codicon-sort-precedence:before { content: '\eb55'; }
+.codicon-split-horizontal:before { content: '\eb56'; }
+.codicon-split-vertical:before { content: '\eb57'; }
+.codicon-squirrel:before { content: '\eb58'; }
+.codicon-star-full:before { content: '\eb59'; }
+.codicon-star-half:before { content: '\eb5a'; }
+.codicon-symbol-class:before { content: '\eb5b'; }
+.codicon-symbol-color:before { content: '\eb5c'; }
+.codicon-symbol-customcolor:before { content: '\eb5c'; }
+.codicon-symbol-constant:before { content: '\eb5d'; }
+.codicon-symbol-enum-member:before { content: '\eb5e'; }
+.codicon-symbol-field:before { content: '\eb5f'; }
+.codicon-symbol-file:before { content: '\eb60'; }
+.codicon-symbol-interface:before { content: '\eb61'; }
+.codicon-symbol-keyword:before { content: '\eb62'; }
+.codicon-symbol-misc:before { content: '\eb63'; }
+.codicon-symbol-operator:before { content: '\eb64'; }
+.codicon-symbol-property:before { content: '\eb65'; }
+.codicon-wrench:before { content: '\eb65'; }
+.codicon-wrench-subaction:before { content: '\eb65'; }
+.codicon-symbol-snippet:before { content: '\eb66'; }
+.codicon-tasklist:before { content: '\eb67'; }
+.codicon-telescope:before { content: '\eb68'; }
+.codicon-text-size:before { content: '\eb69'; }
+.codicon-three-bars:before { content: '\eb6a'; }
+.codicon-thumbsdown:before { content: '\eb6b'; }
+.codicon-thumbsup:before { content: '\eb6c'; }
+.codicon-tools:before { content: '\eb6d'; }
+.codicon-triangle-down:before { content: '\eb6e'; }
+.codicon-triangle-left:before { content: '\eb6f'; }
+.codicon-triangle-right:before { content: '\eb70'; }
+.codicon-triangle-up:before { content: '\eb71'; }
+.codicon-twitter:before { content: '\eb72'; }
+.codicon-unfold:before { content: '\eb73'; }
+.codicon-unlock:before { content: '\eb74'; }
+.codicon-unmute:before { content: '\eb75'; }
+.codicon-unverified:before { content: '\eb76'; }
+.codicon-verified:before { content: '\eb77'; }
+.codicon-versions:before { content: '\eb78'; }
+.codicon-vm-active:before { content: '\eb79'; }
+.codicon-vm-outline:before { content: '\eb7a'; }
+.codicon-vm-running:before { content: '\eb7b'; }
+.codicon-watch:before { content: '\eb7c'; }
+.codicon-whitespace:before { content: '\eb7d'; }
+.codicon-whole-word:before { content: '\eb7e'; }
+.codicon-window:before { content: '\eb7f'; }
+.codicon-word-wrap:before { content: '\eb80'; }
+.codicon-zoom-in:before { content: '\eb81'; }
+.codicon-zoom-out:before { content: '\eb82'; }
+.codicon-list-filter:before { content: '\eb83'; }
+.codicon-list-flat:before { content: '\eb84'; }
+.codicon-list-selection:before { content: '\eb85'; }
+.codicon-selection:before { content: '\eb85'; }
+.codicon-list-tree:before { content: '\eb86'; }
+.codicon-debug-breakpoint-function-unverified:before { content: '\eb87'; }
+.codicon-debug-breakpoint-function:before { content: '\eb88'; }
+.codicon-debug-breakpoint-function-disabled:before { content: '\eb88'; }
+.codicon-debug-stackframe-active:before { content: '\eb89'; }
+.codicon-circle-small-filled:before { content: '\eb8a'; }
+.codicon-debug-stackframe-dot:before { content: '\eb8a'; }
+.codicon-debug-stackframe:before { content: '\eb8b'; }
+.codicon-debug-stackframe-focused:before { content: '\eb8b'; }
+.codicon-debug-breakpoint-unsupported:before { content: '\eb8c'; }
+.codicon-symbol-string:before { content: '\eb8d'; }
+.codicon-debug-reverse-continue:before { content: '\eb8e'; }
+.codicon-debug-step-back:before { content: '\eb8f'; }
+.codicon-debug-restart-frame:before { content: '\eb90'; }
+.codicon-call-incoming:before { content: '\eb92'; }
+.codicon-call-outgoing:before { content: '\eb93'; }
+.codicon-menu:before { content: '\eb94'; }
+.codicon-expand-all:before { content: '\eb95'; }
+.codicon-feedback:before { content: '\eb96'; }
+.codicon-group-by-ref-type:before { content: '\eb97'; }
+.codicon-ungroup-by-ref-type:before { content: '\eb98'; }
+.codicon-account:before { content: '\eb99'; }
+.codicon-bell-dot:before { content: '\eb9a'; }
+.codicon-debug-console:before { content: '\eb9b'; }
+.codicon-library:before { content: '\eb9c'; }
+.codicon-output:before { content: '\eb9d'; }
+.codicon-run-all:before { content: '\eb9e'; }
+.codicon-sync-ignored:before { content: '\eb9f'; }
+.codicon-pinned:before { content: '\eba0'; }
+.codicon-github-inverted:before { content: '\eba1'; }
+.codicon-debug-alt:before { content: '\eb91'; }
+.codicon-server-process:before { content: '\eba2'; }
+.codicon-server-environment:before { content: '\eba3'; }
+.codicon-pass:before { content: '\eba4'; }
+.codicon-stop-circle:before { content: '\eba5'; }
+.codicon-play-circle:before { content: '\eba6'; }
+.codicon-record:before { content: '\eba7'; }
+.codicon-debug-alt-small:before { content: '\eba8'; }
+.codicon-vm-connect:before { content: '\eba9'; }
+.codicon-cloud:before { content: '\ebaa'; }
+.codicon-merge:before { content: '\ebab'; }
+.codicon-export:before { content: '\ebac'; }
+.codicon-graph-left:before { content: '\ebad'; }
+.codicon-magnet:before { content: '\ebae'; }
+.codicon-notebook:before { content: '\ebaf'; }
+.codicon-redo:before { content: '\ebb0'; }
+.codicon-check-all:before { content: '\ebb1'; }
+.codicon-pinned-dirty:before { content: '\ebb2'; }
+.codicon-pass-filled:before { content: '\ebb3'; }
+.codicon-circle-large-filled:before { content: '\ebb4'; }
+.codicon-circle-large-outline:before { content: '\ebb5'; }
+.codicon-combine:before { content: '\ebb6'; }
+.codicon-gather:before { content: '\ebb6'; }
+.codicon-table:before { content: '\ebb7'; }
+.codicon-variable-group:before { content: '\ebb8'; }
+.codicon-type-hierarchy:before { content: '\ebb9'; }
+.codicon-type-hierarchy-sub:before { content: '\ebba'; }
+.codicon-type-hierarchy-super:before { content: '\ebbb'; }
+.codicon-git-pull-request-create:before { content: '\ebbc'; }
+.codicon-run-above:before { content: '\ebbd'; }
+.codicon-run-below:before { content: '\ebbe'; }
+.codicon-notebook-template:before { content: '\ebbf'; }
+.codicon-debug-rerun:before { content: '\ebc0'; }
+.codicon-workspace-trusted:before { content: '\ebc1'; }
+.codicon-workspace-untrusted:before { content: '\ebc2'; }
+.codicon-workspace-unspecified:before { content: '\ebc3'; }
+.codicon-terminal-cmd:before { content: '\ebc4'; }
+.codicon-terminal-debian:before { content: '\ebc5'; }
+.codicon-terminal-linux:before { content: '\ebc6'; }
+.codicon-terminal-powershell:before { content: '\ebc7'; }
+.codicon-terminal-tmux:before { content: '\ebc8'; }
+.codicon-terminal-ubuntu:before { content: '\ebc9'; }
+.codicon-terminal-bash:before { content: '\ebca'; }
+.codicon-arrow-swap:before { content: '\ebcb'; }
+.codicon-copy:before { content: '\ebcc'; }
+.codicon-person-add:before { content: '\ebcd'; }
+.codicon-filter-filled:before { content: '\ebce'; }
+.codicon-wand:before { content: '\ebcf'; }
+.codicon-debug-line-by-line:before { content: '\ebd0'; }
+.codicon-inspect:before { content: '\ebd1'; }
+.codicon-layers:before { content: '\ebd2'; }
+.codicon-layers-dot:before { content: '\ebd3'; }
+.codicon-layers-active:before { content: '\ebd4'; }
+.codicon-compass:before { content: '\ebd5'; }
+.codicon-compass-dot:before { content: '\ebd6'; }
+.codicon-compass-active:before { content: '\ebd7'; }
+.codicon-azure:before { content: '\ebd8'; }
+.codicon-issue-draft:before { content: '\ebd9'; }
+.codicon-git-pull-request-closed:before { content: '\ebda'; }
+.codicon-git-pull-request-draft:before { content: '\ebdb'; }
+.codicon-debug-all:before { content: '\ebdc'; }
+.codicon-debug-coverage:before { content: '\ebdd'; }
+.codicon-run-errors:before { content: '\ebde'; }
+.codicon-folder-library:before { content: '\ebdf'; }
+.codicon-debug-continue-small:before { content: '\ebe0'; }
+.codicon-beaker-stop:before { content: '\ebe1'; }
+.codicon-graph-line:before { content: '\ebe2'; }
+.codicon-graph-scatter:before { content: '\ebe3'; }
+.codicon-pie-chart:before { content: '\ebe4'; }
+.codicon-bracket:before { content: '\eb0f'; }
+.codicon-bracket-dot:before { content: '\ebe5'; }
+.codicon-bracket-error:before { content: '\ebe6'; }
+.codicon-lock-small:before { content: '\ebe7'; }
+.codicon-azure-devops:before { content: '\ebe8'; }
+.codicon-verified-filled:before { content: '\ebe9'; }
+.codicon-newline:before { content: '\ebea'; }
+.codicon-layout:before { content: '\ebeb'; }
+.codicon-layout-activitybar-left:before { content: '\ebec'; }
+.codicon-layout-activitybar-right:before { content: '\ebed'; }
+.codicon-layout-panel-left:before { content: '\ebee'; }
+.codicon-layout-panel-center:before { content: '\ebef'; }
+.codicon-layout-panel-justify:before { content: '\ebf0'; }
+.codicon-layout-panel-right:before { content: '\ebf1'; }
+.codicon-layout-panel:before { content: '\ebf2'; }
+.codicon-layout-sidebar-left:before { content: '\ebf3'; }
+.codicon-layout-sidebar-right:before { content: '\ebf4'; }
+.codicon-layout-statusbar:before { content: '\ebf5'; }
+.codicon-layout-menubar:before { content: '\ebf6'; }
+.codicon-layout-centered:before { content: '\ebf7'; }
+.codicon-layout-sidebar-right-off:before { content: '\ec00'; }
+.codicon-layout-panel-off:before { content: '\ec01'; }
+.codicon-layout-sidebar-left-off:before { content: '\ec02'; }
+.codicon-target:before { content: '\ebf8'; }
+.codicon-indent:before { content: '\ebf9'; }
+.codicon-record-small:before { content: '\ebfa'; }
+.codicon-error-small:before { content: '\ebfb'; }
+.codicon-arrow-circle-down:before { content: '\ebfc'; }
+.codicon-arrow-circle-left:before { content: '\ebfd'; }
+.codicon-arrow-circle-right:before { content: '\ebfe'; }
+.codicon-arrow-circle-up:before { content: '\ebff'; }
+.codicon-heart-filled:before { content: '\ec04'; }
+.codicon-map:before { content: '\ec05'; }
+.codicon-map-filled:before { content: '\ec06'; }
+.codicon-circle-small:before { content: '\ec07'; }
+.codicon-bell-slash:before { content: '\ec08'; }
+.codicon-bell-slash-dot:before { content: '\ec09'; }
+.codicon-comment-unresolved:before { content: '\ec0a'; }
+.codicon-git-pull-request-go-to-changes:before { content: '\ec0b'; }
+.codicon-git-pull-request-new-changes:before { content: '\ec0c'; }
+.codicon-dialog-error:before { content: '\ea87'; }
+.codicon-dialog-warning:before { content: '\ea6c'; }
+.codicon-dialog-info:before { content: '\ea74'; }
+.codicon-dialog-close:before { content: '\ea76'; }
+.codicon-tree-item-expanded:before { content: '\eab4'; }
+.codicon-tree-filter-on-type-on:before { content: '\eb83'; }
+.codicon-tree-filter-on-type-off:before { content: '\eb85'; }
+.codicon-tree-filter-clear:before { content: '\ea76'; }
+.codicon-tree-item-loading:before { content: '\eb19'; }
+.codicon-menu-selection:before { content: '\eab2'; }
+.codicon-menu-submenu:before { content: '\eab6'; }
+.codicon-menubar-more:before { content: '\ea7c'; }
+.codicon-scrollbar-button-left:before { content: '\eb6f'; }
+.codicon-scrollbar-button-right:before { content: '\eb70'; }
+.codicon-scrollbar-button-up:before { content: '\eb71'; }
+.codicon-scrollbar-button-down:before { content: '\eb6e'; }
+.codicon-toolbar-more:before { content: '\ea7c'; }
+.codicon-quick-input-back:before { content: '\ea9b'; }
+.codicon-widget-close:before { content: '\ea76'; }
+.codicon-goto-previous-location:before { content: '\eaa1'; }
+.codicon-goto-next-location:before { content: '\ea9a'; }
+.codicon-diff-review-insert:before { content: '\ea60'; }
+.codicon-diff-review-remove:before { content: '\eb3b'; }
+.codicon-diff-review-close:before { content: '\ea76'; }
+.codicon-diff-insert:before { content: '\ea60'; }
+.codicon-diff-remove:before { content: '\eb3b'; }
+.codicon-settings-sync-view-icon:before { content: '\ea77'; }
+.codicon-folding-expanded:before { content: '\eab4'; }
+.codicon-folding-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-expanded:before { content: '\eab4'; }
+.codicon-marker-navigation-next:before { content: '\ea9a'; }
+.codicon-marker-navigation-previous:before { content: '\eaa1'; }
+.codicon-find-selection:before { content: '\eb85'; }
+.codicon-find-collapsed:before { content: '\eab6'; }
+.codicon-find-expanded:before { content: '\eab4'; }
+.codicon-find-replace:before { content: '\eb3d'; }
+.codicon-find-replace-all:before { content: '\eb3c'; }
+.codicon-find-previous-match:before { content: '\eaa1'; }
+.codicon-find-next-match:before { content: '\ea9a'; }
+.codicon-suggest-more-info:before { content: '\eab6'; }
+.codicon-parameter-hints-next:before { content: '\eab4'; }
+.codicon-parameter-hints-previous:before { content: '\eab7'; }
+.codicon-extensions-warning-message:before { content: '\ea6c'; }</style><style type="text/css" media="screen" class="vscode-tokens-styles">
+.mtk1 { color: #000000; }
+.mtk2 { color: #ffffff; }
+.mtk3 { color: #000080; }
+.mtk4 { color: #008000; }
+.mtk5 { color: #0000ff; }
+.mtk6 { color: #098658; }
+.mtk7 { color: #811f3f; }
+.mtk8 { color: #800000; }
+.mtk9 { color: #e50000; }
+.mtk10 { color: #cd3131; }
+.mtk11 { color: #a31515; }
+.mtk12 { color: #0451a5; }
+.mtk13 { color: #316bcd; }
+.mtk14 { color: #cd9731; }
+.mtk15 { color: #800080; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; text-underline-position: under; }
+.mtks { text-decoration: line-through; }
+.mtks.mtku { text-decoration: underline line-through; text-underline-position: under; }</style><style>
+.monaco-hover-content h1, .monaco-hover-content h2, .monaco-hover-content h3, .monaco-hover-content h4, .monaco-hover-content h5, .monaco-hover-content h6 {
+  all: revert;
+}
+</style><style type="text/css" class="contributedFileIconTheme"></style><style type="text/css" class="contributedProductIconTheme"></style><script id="facebook-jssdk" async="" src="./sdk.js(1).download"></script><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style><style type="text/css" media="screen">
+		.monaco-editor .codelens-decoration._ee1f61 { line-height: 13px; font-size: 10px; padding-right: 5px; font-feature-settings: var(--codelens-font-features_ee1f61) }
+		.monaco-editor .codelens-decoration._ee1f61 span.codicon { line-height: 13px; font-size: 10px; }
+		</style><script type="text/javascript" charset="UTF-8" src="./common.js.download"></script><script type="text/javascript" charset="UTF-8" src="./util.js.download"></script></head><body ng-class="{
+      &#39;mobile&#39;: pageLayoutService.mobile,
+      &#39;menuVisible&#39;: pageLayoutService.menuVisible,
+      &#39;fullscreen&#39;: pageLayoutService.fullscreen,
+      &#39;noBackground&#39;: pageLayoutService.noBackground,
+      &#39;pageLoaded&#39;: isPageLoaded()
+    }" class="monaco-workbench mobile fullscreen noBackground enable-motion vs vscode-theme-defaults-themes-light_vs-json"><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div><script src="./socket.io-1.7.3.js.download"></script><tio-navigation-header><!----><div class="tio-navigation-header transparent" ng-if="$ctrl.pageLayoutService.header"> <div headroom="" offset="$ctrl.pageLayoutService.fullscreen ? 0 : 60" ng-class="{
+			&#39;force-pinned&#39;: $ctrl.pageLayoutService.forcePinned || $ctrl.lateralMenuOpen || $ctrl.menuOpen,
+			impersonated: $ctrl.sessionService.session.impersonated
+		}" classes="{unpinned: &#39;unpinned&#39;, top: &#39;top&#39;, pinned: &#39;pinned&#39;}" class="tio-navigation-header_wrapper headroom top headroom--bottom"> <button class="tio-navigation-header_lateral-menu-button" ng-click="$ctrl.lateralMenuOpen = !$ctrl.lateralMenuOpen"> <svg class="tio-navigation-header_lateral-menu-button-icon" tio-svg="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDY0IDQ4Ij48cGF0aCBpZD0iTWVudV9NNjQiIGQ9Ik01OTE2IDUwaC02MGEyIDIgMCAxIDEgMC00aDYwYTIgMiAwIDEgMSAwIDRabTAgMjJoLTYwYTIgMiAwIDAgMSAwLTRoNjBhMiAyIDAgMCAxIDAgNFptMCAyMmgtNjBhMiAyIDAgMSAxIDAtNGg2MGEyIDIgMCAxIDEgMCA0WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTU4NTQgLTQ2KSIgc3R5bGU9ImZpbGw6I2ZmZjtmaWxsLXJ1bGU6ZXZlbm9kZCIvPjwvc3ZnPg==#Menu_M64" viewBox="0 0 64 48"><path id="Menu_M64" d="M5916 50h-60a2 2 0 1 1 0-4h60a2 2 0 1 1 0 4Zm0 22h-60a2 2 0 0 1 0-4h60a2 2 0 0 1 0 4Zm0 22h-60a2 2 0 1 1 0-4h60a2 2 0 1 1 0 4Z" transform="translate(-5854 -46)" style="fill:#fff;fill-rule:evenodd"></path></svg> </button> <!----><a ng-if="!$ctrl.pageLayoutService.mobile || !$ctrl.isMobileBarOpen" ui-sref="home" ui-sref-opts="{reload: true}" class="tio-navigation-header_logo-container beta" href="https://tech.io/"><img class="tio-navigation-header_logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzIiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAxMzIgMzUiPjxwYXRoIGlkPSJsb2dvIiBkPSJNNDkuODI0IDI0LjA3M2guMDEtLjAxMmEuMDE0LjAxNCAwIDAgMCAuMDAyIDBaTTU3LjYgMjRhMzIuNSAzMi41IDAgMCAxIDQuMTM0LTYuNzEyLjMzLjMzIDAgMCAxIC41ODcuMTQ0Yy4zOTUgMi4yNjMgMS40ODIgOS4xNDQuMzIgMTAuMzM3YS40MTkuNDE5IDAgMCAxLS41ODYgMCAxNi42IDE2LjYgMCAwIDAtNC4xMjYtMi45MTZBLjY1LjY1IDAgMCAxIDU3LjYgMjRabS0xNC44LTYuNTcyYS4zMy4zMyAwIDAgMSAuNTg2LS4xNDRBMzIuNDcgMzIuNDcgMCAwIDEgNDcuNTI1IDI0YS42NTEuNjUxIDAgMCAxLS4zMjguODU2IDE2LjYgMTYuNiAwIDAgMC00LjEyOCAyLjkxNi40MTguNDE4IDAgMCAxLS41ODUgMGMtMS4xNjItMS4yLS4wNzUtOC4wODEuMzE2LTEwLjM0NFpNNjkuOTIyIDM1LjZhMS44MTIgMS44MTIgMCAwIDAtLjQ3OS0uNzY0bC0uMTI2LS4xMjRhMS42NTEgMS42NTEgMCAwIDAtLjI1Ni0xLjA3MSAxLjYwNyAxLjYwNyAwIDAgMC0uNDY4LS40NjQgMTUuMzMgMTUuMzMgMCAwIDEtMi44NjQtMi45NTZjLjU5NC0xLjAyOSAxLjEtMy4wODkuNTM2LTcuOTkxYTg1LjY4OSA4NS42ODkgMCAwIDAtMS41LTguNTIzIDIuMTE2IDIuMTE2IDAgMCAwLTEuNDUyLTEuNiAyLjAyOCAyLjAyOCAwIDAgMC0yLjEwNi42MzkgNjQuNDU1IDY0LjQ1NSAwIDAgMC01LjgwNyA3Ljc5MSAxLjcgMS43IDAgMCAwLTIuNzg1LjUzNCAyLjkxMSAyLjkxMSAwIDAgMS0xLjk4MSAxLjMzNWMtMS41NS0zLjI0NS00Ljg1OC03LjM0Ny02LjgzNy05LjY2M2EyLjAyOCAyLjAyOCAwIDAgMC0yLjEwNi0uNjM4IDIuMTE2IDIuMTE2IDAgMCAwLTEuNDU2IDEuNTk1IDg1LjkyMyA4NS45MjMgMCAwIDAtMS41IDguNTNjLS41NTkgNC45LS4wNTkgNi45NTcuNTM1IDcuOTg3YTE1LjIzNCAxNS4yMzQgMCAwIDEtMi44NjcgMi45NTggMS42MDcgMS42MDcgMCAwIDAtLjQ2OC40NjYgMS42MzggMS42MzggMCAwIDAtLjI1NCAxLjA2OGwtLjEzMy4xMzFhMS43OSAxLjc5IDAgMCAwLS40NzYuNzYxIDEuNzMgMS43MyAwIDAgMCAuNTc0IDEuODUzbDEuMjM4Ljk4OGExLjczNSAxLjczNSAwIDAgMCAuMzY0IDEuMzUyIDEuNjY4IDEuNjY4IDAgMCAwIC4zMzcuMzE2IDIwLjY0NCAyMC42NDQgMCAwIDAgNy40NDEgMy40NjYuNTQ3LjU0NyAwIDAgMCAuNy0uNjQzbC0uMDUxLS40YS42NDYuNjQ2IDAgMCAxIC41MjMtLjgzNy42MTIuNjEyIDAgMCAxIC43NDQuNjE0cy4zODQgMy4yIDEuNjMyIDQuMTQzYTMuMzM5IDMuMzM5IDAgMCAwIDEuOTY2LjUzOWguMDIyYy4xMzguMDAyLjUyOS4wMDguNjgzLjAwOC43MDcgMCAuODI0LS44NTggMS4yNjItLjg1OHMuNTQzLjg1OCAxLjI3Ljg1OGMuMTUzIDAgLjU0NCAwIC42ODktLjAxaC4wMTVhMy41MyAzLjUzIDAgMCAwIDEuOTY2LS41MzljMS4zMTQtLjkyIDEuNjQyLTQuMTQzIDEuNjQyLTQuMTQzYS42MzEuNjMxIDAgMCAxIC43ODEtLjYyLjY2My42NjMgMCAwIDEgLjQ2OC44NTNsLS4wNDMuMzlhLjYyNC42MjQgMCAwIDAgLjguNjQyIDE5Ljg4NSAxOS44ODUgMCAwIDAgNy4zMjItMy40NjIgMS43IDEuNyAwIDAgMCAuMzItLjI5NCAxLjczMSAxLjczMSAwIDAgMCAuMzgyLTEuMzc2bDEuMjI5LS45NzhhMS43NDIgMS43NDIgMCAwIDAgLjU3NC0xLjg2M1ptLTIxLjA4NCAxLjc0MmMtLjE0MyAxLjAwNS0uNjYgMS43NDktMS4yNzcgMS43NDktLjcyOCAwLTEuMzE4LTEuMDM1LTEuMzE4LTIuMzFzLjU5MS0yLjMxMSAxLjMxOC0yLjMxMWExLjA0NSAxLjA0NSAwIDAgMSAuODI4LjUxNC4xNjYuMTY2IDAgMCAxLS4xLjI2Mi45NTMuOTUzIDAgMCAwLS41NjggMSAuODY4Ljg2OCAwIDAgMCAuNjU5Ljk3OC40NjguNDY4IDAgMCAwIC4yMjMtLjA1OS4xNjYuMTY2IDAgMCAxIC4yMzUuMTc3Wm01LjEgNi42YTIuNzA4IDIuNzA4IDAgMCAxLS45MjcuNjQyIDEuOTYyIDEuOTYyIDAgMCAxLTEuMDMxIDAgMi4xIDIuMSAwIDAgMS0uOTI1LS42MzkuOTc0Ljk3NCAwIDAgMS0uMi0uNjg5YzAtLjQ2OS44MTEtLjc1NCAxLjYzMS0uNzU0czEuNjUuMjg1IDEuNjUuNzU0YS45LjkgMCAwIDEtLjE5NC42OVptMy41LTQuODU1Yy0uNjE4IDAtMS4xMzQtLjc0NC0xLjI3OC0xLjc0OWEuMTY1LjE2NSAwIDAgMSAuMjM4LS4xNzQuNDczLjQ3MyAwIDAgMCAuMjI1LjA1OS44NjguODY4IDAgMCAwIC42NTktLjk3OC45NTMuOTUzIDAgMCAwLS41NjctMSAuMTY2LjE2NiAwIDAgMS0uMS0uMjYyIDEuMDQ3IDEuMDQ3IDAgMCAxIC44MjktLjUxNGMuNzI3IDAgMS4zMTcgMS4wMzUgMS4zMTcgMi4zMTFzLS41OSAyLjMxMS0xLjMxNyAyLjMxMVptMTEuMDM5LTIuNzI2LTEuOTY3IDEuNTc4YS4yMzUuMjM1IDAgMCAwLS4wMy4zMzlsLjE4OS4yMTVhLjMyMS4zMjEgMCAwIDEtLjAzMS40NTYgMTcuNTIyIDE3LjUyMiAwIDAgMS01LjU1MSAyLjk2Mi4yMzIuMjMyIDAgMCAxLS4yMjYtLjM5NCA3LjMyNiA3LjMyNiAwIDAgMCAyLjEyMy01LjY4NHMwLTUuMzg4LTQuMDUxLTUuMzg4Yy0zLjI4OSAwLTQgMy45NDctNC4xNTQgNS40MzFhLjMxOS4zMTkgMCAwIDEtLjQ4LjI0NiAzLjM4IDMuMzggMCAwIDAtMy41MDggMCAuMzI3LjMyNyAwIDAgMS0uNDktLjI1Yy0uMTU1LTEuNDkxLS44NzItNS40MjItNC4xNTQtNS40MjItNC4wNSAwLTQuMDUgNS4zODgtNC4wNSA1LjM4OCAwIDIuNjU3LjgxNCA0LjU3IDIuMTA5IDUuNjkzYS4yMzIuMjMyIDAgMCAxLS4yMjQuNCAxOC41NDEgMTguNTQxIDAgMCAxLTUuNi0yLjk1OS4zMjMuMzIzIDAgMCAxLS4wNDQtLjQ3M2wuMTYyLS4xOTlhLjI0MS4yNDEgMCAwIDAgMC0uMzYybC0xLjk4NS0xLjU4M2EuMzI0LjMyNCAwIDAgMS0uMDI1LS40ODNsLjc0Ni0uNzMyYS4yMjcuMjI3IDAgMCAwIC4wMTQtLjMwOWwtLjEzLS4xNTVhLjIyMy4yMjMgMCAwIDEgLjA0Ni0uMzMgMTguODMzIDE4LjgzMyAwIDAgMCAzLjU1Ny0zLjcyNS42NC42NCAwIDAgMC0uMDMzLS44MWMtMS45MzItMi4yMzcuMTE0LTEyLjMwNy45MTYtMTUuODcxYS42NTguNjU4IDAgMCAxIC42NDQtLjUxNy42NDMuNjQzIDAgMCAxIC40OTMuMjNjMS44IDIuMSA1LjkzNCA3LjE1OCA3LjA4MiAxMC40MTMgMCAwIC4wODctLjAxMy4yMzQtLjA0MmEuNDQ5LjQ0OSAwIDAgMCAuMDU0LS4wMWMxLjMxMy0uMzc3IDMuMDgyLS44MTEgMy43NzctMi40YS4zMjMuMzIzIDAgMCAxIC4zLS4xOTUuMzA3LjMwNyAwIDAgMSAuMjU2LjEzNSA0LjIyNSA0LjIyNSAwIDAgMSAuNyAxLjc5NS4xNjMuMTYzIDAgMCAwIC4zMS4wNGMxLjQyMS0zLjI0MSA1LjEzNC03Ljc3NSA2LjgxMi05LjczOGEuNjQ1LjY0NSAwIDAgMSAuNDk0LS4yMy42NTYuNjU2IDAgMCAxIC42NDQuNTE3Yy44IDMuNTY4IDIuODUzIDEzLjY1LjkxMSAxNS44NzRhLjY0NC42NDQgMCAwIDAtLjAyNC44MTIgMTguOCAxOC44IDAgMCAwIDMuNTUgMy43MTYuMjI4LjIyOCAwIDAgMSAuMDQ2LjMzN2wtLjEyNS4xNDhhLjIzMy4yMzMgMCAwIDAgLjAxNS4zMTZsLjczNS43MjJhLjMzMy4zMzMgMCAwIDEtLjAzLjUwMlpNODIgMjNsMS0xaDEwbDEgMXYybC0xIDFoLTN2MTJsLTEgMWgtMmwtMS0xVjI2aC0zbC0xLTF2LTJabTE1IDAgMS0xaDEwbDEgMXYybC0xIDFoLTd2M2g1bDEgMXYxbC0xIDFoLTV2M2g3bDEgMXYybC0xIDFoLTkuOTZMOTcgMzhWMjNabTI2LjQ2Mi4zNDRhMi4xOCAyLjE4IDAgMCAxIC41MzguNC45NDkuOTQ5IDAgMCAxLS4zMDcuMjY2bC0xLjc3NiAyLjUxYS40MS40MSAwIDAgMS0uMjQ3LjIuNDY4LjQ2OCAwIDAgMS0uMzIxLS4wODggMy45NjcgMy45NjcgMCAwIDAtMS4xMzUtLjZBMy41MTkgMy41MTkgMCAwIDAgMTE5IDI1Ljc4YTQuMzY1IDQuMzY1IDAgMCAwLTEuNjg2LjM3NSAzLjgyOCAzLjgyOCAwIDAgMC0xLjI1MS44ODkgNC4xMTggNC4xMTggMCAwIDAtLjgxOSAxLjMxNyAzLjcxOSAzLjcxOSAwIDAgMC0uMjQ0IDEuNDg3IDEyLjU0MSAxMi41NDEgMCAwIDAgLjI0MyAyLjc0NyA0LjA2MyA0LjA2MyAwIDAgMCAuODE5IDEuMzA3IDMuODQ3IDMuODQ3IDAgMCAwIDIuODM4IDEuMjA4IDQuMSA0LjEgMCAwIDAgMi40NjktLjgxNy40OTIuNDkyIDAgMCAxIC4zMTYtLjA5My40My40MyAwIDAgMSAuMjUyLjE4OEwxMjQgMzYuOTY1Yy4wNzcuMTU0LS4xNzguMjc3LS4yMzMuMzgxYS42ODMuNjgzIDAgMCAxLS4yNjMuMjYyIDguMzcxIDguMzcxIDAgMCAxLTIuMTI5IDEuMDE3IDcuODc2IDcuODc2IDAgMCAxLTIuNC4zNjEgOC4wNjMgOC4wNjMgMCAwIDEtNi45MzYtMy45NDcgNy44IDcuOCAwIDAgMS0uODEtMS45IDE4LjkzOCAxOC45MzggMCAwIDEtLjIyOS0zLjI5MSA2Ljg5MyA2Ljg5MyAwIDAgMSAuMjI3LTEuOTgyIDguMDQ2IDguMDQ2IDAgMCAxIDIuMDY3LTMuNTM5IDcuODIyIDcuODIyIDAgMCAxIDEuNjIzLTEuMjUgOC4yNzIgOC4yNzIgMCAwIDEgMS45MTctLjggOC4xODMgOC4xODMgMCAwIDEgNC41MTkuMDYzIDguMTg0IDguMTg0IDAgMCAxIDIuMTA4IDEuMDAzWm0zLjU1MS0uMjlMMTI4IDIyaDJsMS4wMyAxLjA1NEwxMzEgMjloNXYtNmwxLTFoMmwxIDF2OGwtMSAxaC04djZsLS43NzMgMWgtMi40MTFsLS44LS43ODd2LTE1LjE2Wk0xNDQgMjNsMS0xaDJsMSAxdjE1bC0xLjA5IDFIMTQ1bC0xLTFWMjNabS04IDEzIDEtMWgybDEgMXYybC0xLjEyNyAxSDEzN2wtMS0xdi0yWm04LTIwIDEtMWgybDEgMXYybC0xLjEyOCAxSDE0NWwtMS0xdi0yWm0xNSA2YTguMjYxIDguMjYxIDAgMCAxIDggOC41IDguMDE1IDguMDE1IDAgMSAxLTE2IDAgOC4yNjEgOC4yNjEgMCAwIDEgOC04LjVabTAgNGE0LjI3MiA0LjI3MiAwIDAgMSA0IDQuNSA0LjAyNyA0LjAyNyAwIDEgMS04IDAgNC4yNzEgNC4yNzEgMCAwIDEgNC00LjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzUgLTEyKSIgc3R5bGU9ImZpbGw6I2ZmZjtmaWxsLXJ1bGU6ZXZlbm9kZCIvPjwvc3ZnPg=="></a><!----> <div class="tio-navigation-header_navigation"> <!----><a ui-state="navigation.state" ui-state-params="navigation.stateParams" ui-state-opts="{reload: true}" ng-class="{
+					active: navigation.id === $ctrl.currentMainTab
+				}" class="tio-navigation-header_navigation-action" ng-repeat="navigation in $ctrl.showCaseNavigation track by navigation.id" href="https://tech.io/explore"> <span class="tio-navigation-header_navigation-action-label" translate="tio-navigation-header.navigation.explore">Explore</span> </a><!----><a ui-state="navigation.state" ui-state-params="navigation.stateParams" ui-state-opts="{reload: true}" ng-class="{
+					active: navigation.id === $ctrl.currentMainTab
+				}" class="tio-navigation-header_navigation-action" ng-repeat="navigation in $ctrl.showCaseNavigation track by navigation.id" href="https://tech.io/connect"> <span class="tio-navigation-header_navigation-action-label" translate="tio-navigation-header.navigation.connect">Connect</span> </a><!----><a ui-state="navigation.state" ui-state-params="navigation.stateParams" ui-state-opts="{reload: true}" ng-class="{
+					active: navigation.id === $ctrl.currentMainTab
+				}" class="tio-navigation-header_navigation-action" ng-repeat="navigation in $ctrl.showCaseNavigation track by navigation.id" href="https://tech.io/playgrounds/408"> <span class="tio-navigation-header_navigation-action-label" translate="tio-navigation-header.navigation.documentation">Documentation</span> </a><!----> </div> <!----> <!----> <!----><button ng-if="$ctrl.pageLayoutService.mobile &amp;&amp; !$ctrl.isMobileBarOpen" class="tio-search-bar_mobile-search-button" ng-click="$ctrl.openMobileSearchBar()"> <svg class="tio-search-bar_mobile-icon" tio-svg="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBpZD0iU2VhcmNoX002NCIgZD0iTTY4MzMuNCAzODc3LjQxYTEuOTggMS45OCAwIDAgMS0yLjgyIDBsLTIxLjExLTIxLjFhMjQuMDU3IDI0LjA1NyAwIDEgMSAyLjgzLTIuODNsMjEuMSAyMS4xMWExLjk3NCAxLjk3NCAwIDAgMSAwIDIuODJabS0zOS40MS01OS40MWEyMCAyMCAwIDEgMCAyMCAyMCAyMC4wMiAyMC4wMiAwIDAgMC0yMC0yMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02NzcwIC0zODE0KSIgc3R5bGU9ImZpbGw6I2ZmZjtmaWxsLXJ1bGU6ZXZlbm9kZCIvPjwvc3ZnPg==#Search_M64" viewBox="0 0 64 64"><path id="Search_M64" d="M6833.4 3877.41a1.98 1.98 0 0 1-2.82 0l-21.11-21.1a24.057 24.057 0 1 1 2.83-2.83l21.1 21.11a1.974 1.974 0 0 1 0 2.82Zm-39.41-59.41a20 20 0 1 0 20 20 20.02 20.02 0 0 0-20-20Z" transform="translate(-6770 -3814)" style="fill:#fff;fill-rule:evenodd"></path></svg> </button><!----> <div class="tio-navigation-header_site-navigation"> <!----><!----><a ui-state="navigation.state" ui-state-params="navigation.stateParams" ui-state-opts="{reload: true}" ng-class="[
+					{
+						active: navigation.id === $ctrl.currentMainTab
+					},
+					&#39;tio-navigation-header-&#39; + navigation.id
+				]" class="tio-navigation-header_site-navigation-action  tio-navigation-header-snippet" ng-repeat="navigation in $ctrl.siteNavigation track by navigation.id" ng-if="!navigation.disabled" href="https://tech.io/snippet"> <!----><svg ng-if="navigation.icon" class="tio-navigation-header_site-navigation-action-icon" tio-svg="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MiIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDQyIDI0Ij48cGF0aCBpZD0iU25pcHBldF80MiIgZD0iTTIyMC45NjEgMzAuMTc0YS45NjQuOTY0IDAgMCAxLS4wNDguMjA3Yy0uMDA1LjAxMiAwIC4wMjUtLjAwOC4wMzdhMSAxIDAgMCAxLS4xNjguMjUyYy0uMDA4LjAwOS0uMDE5LjAxNS0uMDI4LjAyNGEuOTgxLjk4MSAwIDAgMS0uMjU2LjE4N2MtLjAxNS4wMDgtLjAyNC4wMjItLjA0LjAyOS0xLjgxOS44MzUtMi4wNDIgMi42MzYtMi4xNzYgNS4yODktLjEyNCAyLjQ0OC0uMjk0IDUuOC00LjIyOCA1LjhhMSAxIDAgMCAxIDAtMmMxLjg3OSAwIDIuMDg1LS45NTMgMi4yMzQtMy45LjEtMi4wNTQuMjU2LTQuNTA2IDItNi4xLTEuNzQxLTEuNTkyLTEuODkzLTQuMDQ0LTItNi4xLS4xNDktMi45NDktLjM1NS0zLjktMi4yMzQtMy45YTEgMSAwIDAgMSAwLTJjMy45MzQgMCA0LjEgMy4zNTQgNC4yMjggNS44LjEzNCAyLjY1My4zNTcgNC40NTMgMi4xNzYgNS4yODlhLjkyNy45MjcgMCAwIDEgLjExNy4wODUuOTc5Ljk3OSAwIDAgMSAuMTY4LjEyMiAzMy44IDMzLjggMCAwIDAgLjIwNy4yODVjMCAuMDEyIDAgLjAyNC4wMDguMDM2YTEuMDMxIDEuMDMxIDAgMCAxIC4wNDkuMjA3IDEuMDQ3IDEuMDQ3IDAgMCAxIC4wMjguMTczLjk1Ny45NTcgMCAwIDEtLjAyOS4xNzhabS0xMy40IDIuMjc2YTMgMyAwIDEgMS0zLjU0My4zMTZsLTIuOTQ4LTEuNjI1LTguNjEgNC43NDdhMSAxIDAgMSAxLS45MTgtMS43NzZMMTk5IDMwbC03LjQ1OC00LjExMWExIDEgMCAxIDEgLjkxOC0xLjc3N2w4LjYxMSA0Ljc0NiAyLjk0Ni0xLjYyNWEzIDMgMCAxIDEgMy41MzguMzJjLS4wMTkuMDExLS4wMy4wMy0uMDUuMDRMMjAzLjE0IDMwbDQuMzYgMi40Yy4wMjYuMDE2LjAzOS4wMzcuMDYuMDVaTTIwNiAyNmExIDEgMCAxIDAtMS0xIDEgMSAwIDAgMCAxIDFabTAgMTBhMSAxIDAgMSAwLTEtMSAxIDEgMCAwIDAgMSAxWm0tMTkuOTk0IDRhMSAxIDAgMSAxIDAgMmMtMy45NSAwLTQuMTItMy4zNTMtNC4yNDQtNS44LS4xMzUtMi42NTMtLjM1OS00LjQ1NC0yLjE4Ni01LjI4OS0uMDE1LS4wMDctLjAyNS0uMDIxLS4wNC0uMDI5YS45ODIuOTgyIDAgMCAxLS4yNTYtLjE4N2MtLjAwOS0uMDA5LS4wMjEtLjAxNS0uMDI5LS4wMjRhMSAxIDAgMCAxLS4xNjgtLjI1MmMwLS4wMTIgMC0uMDI1LS4wMDgtLjAzN2EuOTYyLjk2MiAwIDAgMS0uMDQ5LS4yMDYuNTM1LjUzNSAwIDAgMSAwLS4zNDcuOTY4Ljk2OCAwIDAgMSAuMDQ5LS4yMDdjLjAwNS0uMDEyIDAtLjAyNS4wMDgtLjAzNmEuOTg5Ljk4OSAwIDAgMSAuMDg0LS4xMTUuNjgzLjY4MyAwIDAgMSAuMjk0LS4yOTQuOTkzLjk5MyAwIDAgMSAuMTE1LS4wODRjMS44MjctLjgzNiAyLjA1MS0yLjYzNiAyLjE4Ni01LjI4OS4xMjQtMi40NDguMjk0LTUuOCA0LjI0NC01LjhhMSAxIDAgMSAxIDAgMmMtMS44ODYgMC0yLjA5My45NTMtMi4yNDMgMy45LS4xIDIuMDUzLS4yNTYgNC41MDYtMiA2LjEgMS43NDkgMS41OTIgMS45IDQuMDQ0IDIgNi4xLjE1IDIuOTQzLjM1NyAzLjg5NiAyLjI0MyAzLjg5NloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNzkgLTE4KSIgc3R5bGU9ImZpbGw6I2ZmZjtmaWxsLXJ1bGU6ZXZlbm9kZCIvPjwvc3ZnPg==" viewBox="0 0 42 24"> <path id="Snippet_42" d="M220.961 30.174a.964.964 0 0 1-.048.207c-.005.012 0 .025-.008.037a1 1 0 0 1-.168.252c-.008.009-.019.015-.028.024a.981.981 0 0 1-.256.187c-.015.008-.024.022-.04.029-1.819.835-2.042 2.636-2.176 5.289-.124 2.448-.294 5.8-4.228 5.8a1 1 0 0 1 0-2c1.879 0 2.085-.953 2.234-3.9.1-2.054.256-4.506 2-6.1-1.741-1.592-1.893-4.044-2-6.1-.149-2.949-.355-3.9-2.234-3.9a1 1 0 0 1 0-2c3.934 0 4.1 3.354 4.228 5.8.134 2.653.357 4.453 2.176 5.289a.927.927 0 0 1 .117.085.979.979 0 0 1 .168.122 33.8 33.8 0 0 0 .207.285c0 .012 0 .024.008.036a1.031 1.031 0 0 1 .049.207 1.047 1.047 0 0 1 .028.173.957.957 0 0 1-.029.178Zm-13.4 2.276a3 3 0 1 1-3.543.316l-2.948-1.625-8.61 4.747a1 1 0 1 1-.918-1.776L199 30l-7.458-4.111a1 1 0 1 1 .918-1.777l8.611 4.746 2.946-1.625a3 3 0 1 1 3.538.32c-.019.011-.03.03-.05.04L203.14 30l4.36 2.4c.026.016.039.037.06.05ZM206 26a1 1 0 1 0-1-1 1 1 0 0 0 1 1Zm0 10a1 1 0 1 0-1-1 1 1 0 0 0 1 1Zm-19.994 4a1 1 0 1 1 0 2c-3.95 0-4.12-3.353-4.244-5.8-.135-2.653-.359-4.454-2.186-5.289-.015-.007-.025-.021-.04-.029a.982.982 0 0 1-.256-.187c-.009-.009-.021-.015-.029-.024a1 1 0 0 1-.168-.252c0-.012 0-.025-.008-.037a.962.962 0 0 1-.049-.206.535.535 0 0 1 0-.347.968.968 0 0 1 .049-.207c.005-.012 0-.025.008-.036a.989.989 0 0 1 .084-.115.683.683 0 0 1 .294-.294.993.993 0 0 1 .115-.084c1.827-.836 2.051-2.636 2.186-5.289.124-2.448.294-5.8 4.244-5.8a1 1 0 1 1 0 2c-1.886 0-2.093.953-2.243 3.9-.1 2.053-.256 4.506-2 6.1 1.749 1.592 1.9 4.044 2 6.1.15 2.943.357 3.896 2.243 3.896Z" transform="translate(-179 -18)" style="fill:#fff;fill-rule:evenodd"></path></svg><!----> <span class="tio-navigation-header_site-navigation-action-label" translate="tio-navigation-header.navigation.snippet">Snippets</span> </a><!----><!----><!----><!----> </div> <!----><div class="tio-navigation-header_auth" ng-if="!$ctrl.sessionService.isLogged()"> <button class="tio-navigation-header_auth-button tio-navigation-header_auth-button-login" ng-click="$ctrl.login()"> <span class="tio-navigation-header_auth-button-label" translate="tio-navigation-header.login">Log in</span> </button> <button class="tio-navigation-header_auth-button tio-navigation-header_auth-button-signup" ng-click="$ctrl.signup()"> <span class="tio-navigation-header_auth-button-label" translate="tio-navigation-header.signup">Sign up</span> </button> </div><!----> <!----> </div> <!----> </div><!----></tio-navigation-header><instant-messages><div id="instant-messages"> <!----> </div></instant-messages><div class="tio-confirm-popup"> <div class="tio-popup" close="defaultAction()" data-open="popupService.confirmPopup"> <!----> </div> </div><div class="tio-generic-popup"> <div class="tio-popup" close="popupService.getLastGenericPopup().cancellable?reject():accept()" data-open="popupService.getLastGenericPopup()" no-overflow="popupService.getLastGenericPopup().noOverflow"> <!----> </div> </div><div class="cg-login-popup"> <div class="tio-popup" close="defaultAction()" data-open="popupService.loginPopup" non-skippable="popupService.loginPopup.skipMode === &#39;mandatory&#39;"> <!----> </div> </div><div id="content" ng-class="pageLayoutService.pageClass" class="global-content"><!----><cg-cookies-banner ng-if="!pageLayoutService.hideCookiesBanner" origin="storm"><!----> </cg-cookies-banner><!----><!----><div ui-view=""><playground-widget testsession="::$resolve.testsession" testcase="::$resolve.testcase" label="::$resolve.label" title="::$resolve.title" url="::$resolve.url"><div class="playground-widget" cg-resize="notifyResize($event.target.height())" cg-resize-no-delay="true"> <tio-course-testcase id="testcaseEmbedded" data-title="title" data-label="label" data-testcase="testcase" techio-logo-url="techioLogoUrl" testsession="testsession" analytics-origin="&#39;widget&#39;"><div class="tio-course-testcase success" tio-scrollintoview-enabler="$ctrl.testcase.result" ng-class="$ctrl.testcase.status"> <!----><div class="editor-header" ng-attr-title="{{$ctrl.label}}" ng-if="$ctrl.label" title="ContainsKeyword"> <div class="editor-header-info"> <div class="editor-header-status"></div> <div class="editor-label" ng-bind="$ctrl.label">ContainsKeyword</div> </div> </div><!----> <!----><tio-editor ng-if="$ctrl.testcase.courseLayout === &#39;inline&#39;" class="tio-course-testcase_tio-editor" code-wrappers="$ctrl.codeWrappers" max-lines="50" selected-code="$ctrl.selectedCode" save-answer="$ctrl.testcase.saveAnswer()" play="$ctrl.testcase.play()" play-all="$ctrl.testcase.play()" unique-session-id="$ctrl.uniqueSessionId" data-title="$ctrl.title" data-label="$ctrl.label" data-testcase="$ctrl.testcase" testsession="$ctrl.testsession" analytics-origin="$ctrl.analyticsOrigin"><div class="tio-editor" ng-class="{&#39;split-mode&#39;: $ctrl.splitMode, &#39;with-banner&#39;: $ctrl.isHeaderVisible()}"> <!----> <div class="tio-editor_body"> <!----><cg-ide-code-editor class="tio-editor_code-editor" tio-editor-auto-fold-filter="wrapper.code" auto-fold="true" auto-resize-max-lines="$ctrl.maxLines" on-load="$ctrl.onMonacoLoad(wrapper, api)" ng-show="wrapper === $ctrl.selectedCode" ng-repeat="wrapper in $ctrl.codeWrappers" code="wrapper.code.code" logs="wrapper.code.logs" theme="$ctrl.splitMode ? &#39;techio-black&#39; : &#39;techio&#39;" file-uri="$ctrl.findWrapperFileUri(wrapper)" unique-session-id="$ctrl.testsession.getTestSessionId()" configuration="$ctrl.codeEditorConfiguration" font-size="12" is-read-only="$ctrl.isReadOnly" on-code-change="$ctrl.onCodeChange"><div class="code-editor-container" ng-class="{&#39;wrong-focus&#39;: $ctrl.wrong, fitParent: $ctrl.autoResizeMaxLines == null}" style="height: 425px;"> <div class="code-editor ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse" cg-monaco-editor="" file-uri="$ctrl.getFileUri()" programming-language-id="$ctrl.programmingLanguage" options="$ctrl.editorOptions" on-ready="$ctrl.monacoLoaded(editor)" ng-model="$ctrl.code" ng-readonly="$ctrl.isReadOnly" ng-class="{
+			&#39;code-editor-readonly&#39;: $ctrl.isReadOnly,
+			focused: $ctrl.focused
+		}" status-bar-selector="#code-editor-status-bar-T98k28W3MNkMre1J" mode="$ctrl.configuration.mode" data-keybinding-context="1" data-mode-id="java" style="--codelens-font-features_ee1f61:&quot;liga&quot; off, &quot;calt&quot; off;"><div class="monaco-editor no-user-select  showUnused showDeprecated vs" role="code" data-uri="file:///tmp/project/testcases/1089190/8.4/step2/ExamplesSearch.java" style="width: 761px; height: 425px;"><div data-mprt="3" class="overflow-guard" style="width: 761px; height: 425px;"><div class="margin" role="presentation" aria-hidden="true" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; top: 0px; height: 432px; width: 57px;"><div class="glyph-margin" style="left: 0px; width: 16px; height: 432px;"></div><div class="margin-view-zones" role="presentation" aria-hidden="true" style="position: absolute;"></div><div class="margin-view-overlays" role="presentation" aria-hidden="true" style="position: absolute; width: 57px; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 12px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; line-height: 16px; letter-spacing: 0px; height: 432px;"><div style="position:absolute;top:0px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">1</div></div><div style="position:absolute;top:16px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">2</div></div><div style="position:absolute;top:32px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">3</div></div><div style="position:absolute;top:48px;width:100%;height:16px;"><div class="cldr codicon codicon-folding-expanded" style="left:36px;width:21px;"></div><div class="line-numbers" style="left:16px;width:20px;">4</div></div><div style="position:absolute;top:144px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">10</div></div><div style="position:absolute;top:160px;width:100%;height:16px;"><div class="cldr codicon codicon-folding-expanded" style="left:36px;width:21px;"></div><div class="line-numbers" style="left:16px;width:20px;">11</div></div><div style="position:absolute;top:176px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">12</div></div><div style="position:absolute;top:192px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">13</div></div><div style="position:absolute;top:208px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">14</div></div><div style="position:absolute;top:224px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">15</div></div><div style="position:absolute;top:240px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">16</div></div><div style="position:absolute;top:256px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">17</div></div><div style="position:absolute;top:272px;width:100%;height:16px;"><div class="cldr codicon codicon-folding-expanded" style="left:36px;width:21px;"></div><div class="line-numbers" style="left:16px;width:20px;">18</div></div><div style="position:absolute;top:288px;width:100%;height:16px;"><div class="cldr codicon codicon-folding-expanded" style="left:36px;width:21px;"></div><div class="line-numbers" style="left:16px;width:20px;">19</div></div><div style="position:absolute;top:304px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">20</div></div><div style="position:absolute;top:320px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">21</div></div><div style="position:absolute;top:336px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">22</div></div><div style="position:absolute;top:352px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">23</div></div><div style="position:absolute;top:368px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">24</div></div><div style="position:absolute;top:384px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">25</div></div><div style="position:absolute;top:64px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">5</div></div><div style="position:absolute;top:128px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">9</div></div><div style="position:absolute;top:80px;width:100%;height:16px;"><div class="cldr codicon codicon-folding-expanded" style="left:36px;width:21px;"></div><div class="line-numbers" style="left:16px;width:20px;">6</div></div><div style="position:absolute;top:96px;width:100%;height:16px;"><div class="current-line current-line-margin-both" style="width:57px; height:16px;"></div><div class="active-line-number line-numbers" style="left:16px;width:20px;">7</div></div><div style="position:absolute;top:112px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">8</div></div><div style="position:absolute;top:400px;width:100%;height:16px;"><div class="cldr codicon codicon-folding-collapsed" style="left:36px;width:21px;"></div><div class="line-numbers" style="left:16px;width:20px;">26</div></div><div style="position:absolute;top:416px;width:100%;height:16px;"><div class="line-numbers" style="left:16px;width:20px;">63</div></div></div></div><div class="monaco-scrollable-element editor-scrollable vs" role="presentation" data-mprt="5" style="position: absolute; overflow: hidden; left: 57px; width: 704px; height: 425px;"><div class="lines-content monaco-editor-background" style="position: absolute; overflow: hidden; width: 1e+06px; height: 1e+06px; transform: translate3d(0px, 0px, 0px); contain: strict; top: 0px; left: 0px;"><div class="view-overlays" role="presentation" aria-hidden="true" style="position: absolute; height: 0px; width: 704px;"><div style="position:absolute;top:0px;width:100%;height:16px;"></div><div style="position:absolute;top:16px;width:100%;height:16px;"></div><div style="position:absolute;top:32px;width:100%;height:16px;"></div><div style="position:absolute;top:48px;width:100%;height:16px;"></div><div style="position: absolute; top: 144px; width: 100%; height: 16px;"></div><div style="position: absolute; top: 160px; width: 100%; height: 16px;"></div><div style="position: absolute; top: 176px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 192px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 208px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 224px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 240px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 256px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 272px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 288px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:13.1953125px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 304px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:13.1953125px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:26.390625px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:39.5859375px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:52.78125px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:65.9765625px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 320px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:13.1953125px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:26.390625px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:39.5859375px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:52.78125px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:65.9765625px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 336px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:13.1953125px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:26.390625px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:39.5859375px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:52.78125px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent vertical" style="left:65.9765625px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 352px; width: 100%; height: 16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 368px; width: 100%; height: 16px;"></div><div style="position: absolute; top: 384px; width: 100%; height: 16px;"></div><div style="position:absolute;top:64px;width:100%;height:16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position: absolute; top: 128px; width: 100%; height: 16px;"></div><div style="position:absolute;top:80px;width:100%;height:16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position:absolute;top:96px;width:100%;height:16px;"><div class="current-line" style="width:704px; height:16px;"></div><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div><div class="core-guide core-guide-indent-active vertical" style="left:13.1953125px;height:16px;width:6.59765625px"></div></div><div style="position:absolute;top:112px;width:100%;height:16px;"><div class="core-guide core-guide-indent vertical" style="left:0px;height:16px;width:6.59765625px"></div></div><div style="position:absolute;top:400px;width:100%;height:16px;"><div class="cdr folded-background" style="left:0;width:100%;height:16px;"></div></div><div style="position:absolute;top:416px;width:100%;height:16px;"></div></div><div role="presentation" aria-hidden="true" class="view-rulers"></div><div role="presentation" aria-hidden="true" class="blockDecorations-container"></div><div class="view-zones" role="presentation" aria-hidden="true" style="position: absolute;"></div><div class="view-lines monaco-mouse-cursor-text" role="presentation" aria-hidden="true" data-mprt="7" style="position: absolute; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 12px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; line-height: 16px; letter-spacing: 0px; width: 704px; height: 432px;"><div style="top:0px;height:16px;" class="view-line"><span><span class="mtk5">import</span><span class="mtk1">&nbsp;tester.*;</span></span></div><div style="top:16px;height:16px;" class="view-line"><span><span></span></span></div><div style="top:32px;height:16px;" class="view-line"><span><span class="mtk4">//&nbsp;write&nbsp;the&nbsp;ContainsKeyword&nbsp;class&nbsp;here</span></span></div><div style="top:48px;height:16px;" class="view-line"><span><span class="mtk5">class</span><span class="mtk1">&nbsp;ContainsKeyword&nbsp;</span><span class="mtk5">implements</span><span class="mtk1">&nbsp;ImageQuery&nbsp;{</span></span></div><div style="top: 144px; height: 16px;" class="view-line"><span><span></span></span></div><div style="top: 160px; height: 16px;" class="view-line"><span><span class="mtk5">public</span><span class="mtk1">&nbsp;</span><span class="mtk5">class</span><span class="mtk1">&nbsp;ExamplesSearch&nbsp;{</span></span></div><div style="top: 176px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">ImageData</span><span class="mtk1">&nbsp;i1&nbsp;=&nbsp;</span><span class="mtk5">new</span><span class="mtk1">&nbsp;ImageData(</span><span class="mtk11">"Carol&nbsp;Shaw&nbsp;River&nbsp;Raid"</span><span class="mtk1">,&nbsp;</span><span class="mtk11">"png"</span><span class="mtk1">,&nbsp;</span><span class="mtk6">600</span><span class="mtk1">,&nbsp;</span><span class="mtk6">400</span><span class="mtk1">);</span></span></div><div style="top: 192px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">ImageData</span><span class="mtk1">&nbsp;i2&nbsp;=&nbsp;</span><span class="mtk5">new</span><span class="mtk1">&nbsp;ImageData(</span><span class="mtk11">"crescendo&nbsp;heliotrope&nbsp;cerebellum"</span><span class="mtk1">,&nbsp;</span><span class="mtk11">"jpg"</span><span class="mtk1">,&nbsp;</span><span class="mtk6">500</span><span class="mtk1">,&nbsp;</span><span class="mtk6">400</span><span class="mtk1">);</span></span></div><div style="top: 208px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">ImageQuery</span><span class="mtk1">&nbsp;ck1&nbsp;=&nbsp;</span><span class="mtk5">new</span><span class="mtk1">&nbsp;ContainsKeyword(</span><span class="mtk11">"River"</span><span class="mtk1">);</span></span></div><div style="top: 224px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">ImageQuery</span><span class="mtk1">&nbsp;ck2&nbsp;=&nbsp;</span><span class="mtk5">new</span><span class="mtk1">&nbsp;ContainsKeyword(</span><span class="mtk11">"crescendo"</span><span class="mtk1">);</span></span></div><div style="top: 240px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">ImageQuery</span><span class="mtk1">&nbsp;ck3&nbsp;=&nbsp;</span><span class="mtk5">new</span><span class="mtk1">&nbsp;ContainsKeyword(</span><span class="mtk11">"raspberry"</span><span class="mtk1">);</span></span></div><div style="top: 256px; height: 16px;" class="view-line"><span><span></span></span></div><div style="top: 272px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">boolean</span><span class="mtk1">&nbsp;testAnd(</span><span class="mtk5">Tester</span><span class="mtk1">&nbsp;t)&nbsp;{</span></span></div><div style="top: 288px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk5">return</span><span class="mtk1">&nbsp;t.checkExpect(</span><span class="mtk5">this</span><span class="mtk1">.ck1.matches(i1),&nbsp;</span><span class="mtk5">true</span><span class="mtk1">)&nbsp;&amp;&amp;</span></span></div><div style="top: 304px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t.checkExpect(</span><span class="mtk5">this</span><span class="mtk1">.ck1.matches(i2),&nbsp;</span><span class="mtk5">false</span><span class="mtk1">)&nbsp;&amp;&amp;</span></span></div><div style="top: 320px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t.checkExpect(</span><span class="mtk5">this</span><span class="mtk1">.ck2.matches(i2),&nbsp;</span><span class="mtk5">true</span><span class="mtk1">)&nbsp;&amp;&amp;</span></span></div><div style="top: 336px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t.checkExpect(</span><span class="mtk5">this</span><span class="mtk1">.ck3.matches(i1),&nbsp;</span><span class="mtk5">false</span><span class="mtk1">);</span></span></div><div style="top: 352px; height: 16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;}</span></span></div><div style="top: 368px; height: 16px;" class="view-line"><span><span class="mtk1">}</span></span></div><div style="top: 384px; height: 16px;" class="view-line"><span><span></span></span></div><div style="top:64px;height:16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">String</span><span class="mtk1">&nbsp;keyword;</span></span></div><div style="top: 128px; height: 16px;" class="view-line"><span><span class="mtk1">}</span></span></div><div style="top:80px;height:16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk5">boolean</span><span class="mtk1">&nbsp;matchesKeyword&nbsp;(id){</span></span></div><div style="top:96px;height:16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk5">return</span><span class="mtk1">&nbsp;</span><span class="mtk5">this</span><span class="mtk1">.keyword.equals(id.keyword);</span></span></div><div style="top:112px;height:16px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;}</span></span></div><div style="top:400px;height:16px;" class="view-line"><span><span class="mtk4">//&nbsp;{</span><span class="inline-folded"></span></span></div><div style="top:416px;height:16px;" class="view-line"><span><span></span></span></div></div><div data-mprt="1" class="contentWidgets" style="position: absolute; top: 0px;"></div><div role="presentation" aria-hidden="true" class="cursors-layer cursor-line-style cursor-solid"><div class="cursor monaco-mouse-cursor-text " style="height: 16px; top: 96px; left: 283px; font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 12px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; line-height: 16px; letter-spacing: 0px; display: block; visibility: hidden; width: 2px;"></div></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute; width: 696px; height: 8px; left: 0px; bottom: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 8px; transform: translate3d(0px, 0px, 0px); contain: strict; width: 696px;"></div></div><canvas class="decorationsOverviewRuler" aria-hidden="true" width="24" height="1275" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; top: 0px; right: 0px; width: 8px; height: 425px; display: block;"></canvas><div role="presentation" aria-hidden="true" class="visible scrollbar vertical" style="position: absolute; width: 8px; height: 425px; right: 0px; top: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; width: 8px; transform: translate3d(0px, 0px, 0px); contain: strict; height: 418px;"></div></div></div><div role="presentation" aria-hidden="true" style="width: 761px;" class=""></div><textarea data-mprt="6" class="inputarea monaco-mouse-cursor-text" wrap="off" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" aria-label="Editor content;Press Alt+F1 for Accessibility Options." tabindex="0" role="textbox" aria-roledescription="editor" aria-multiline="true" aria-haspopup="false" aria-autocomplete="both" style="font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 12px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; line-height: 16px; letter-spacing: 0px; top: 96px; left: 341px; width: 1px; height: 1px;"></textarea><div class="monaco-editor-background textAreaCover margin" style="position: absolute; top: 0px; left: 0px; width: 0px; height: 0px;"></div><div data-mprt="4" class="overlayWidgets" style="width: 761px;"><div widgetid="editor.contrib.quickInputWidget" style="position: absolute; top: 0px; right: 50%;"></div><div class="accessibilityHelpWidget" role="dialog" aria-hidden="true" widgetid="editor.contrib.accessibilityHelpWidget" style="display: none; position: absolute;"><div role="document"></div></div></div><div data-mprt="8" class="minimap slider-mouseover" role="presentation" aria-hidden="true" style="position: absolute; left: 0px; width: 0px; height: 425px;"><div class="minimap-shadow-hidden" style="height: 425px;"></div><canvas width="0" height="1275" style="position: absolute; left: 0px; width: 0px; height: 425px;"></canvas><canvas class="minimap-decorations-layer" width="0" height="1275" style="position: absolute; left: 0px; width: 0px; height: 425px;"></canvas><div class="minimap-slider" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; width: 0px;"><div class="minimap-slider-horizontal" style="position: absolute; width: 0px; height: 0px;"></div></div></div></div><div data-mprt="2" class="overflowingContentWidgets"><div class="monaco-editor rename-box" widgetid="__renameInputWidget" style="background-color: rgb(243, 243, 243); box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 8px 2px; color: rgb(97, 97, 97); position: fixed; display: none; visibility: hidden; max-width: 831px;"><input class="rename-input" type="text" aria-label="Rename input. Type new name and press Enter to commit." style="font-family: Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 12px; background-color: rgb(255, 255, 255); border-width: 0px; border-style: none;"><div class="rename-label" style="font-size: 9.6px;">Enter to Rename, Shift+Enter to Preview</div></div><div class="monaco-hover hidden" tabindex="0" role="tooltip" widgetid="editor.contrib.contentHoverWidget" style="position: fixed; display: none; visibility: hidden; max-width: 831px;"><div class="monaco-scrollable-element " role="presentation" style="position: relative; overflow: hidden;"><div class="monaco-hover-content" style="overflow: hidden; font-size: 12px; line-height: 1.33333; max-height: 250px; max-width: 502.26px;"></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 10px; transform: translate3d(0px, 0px, 0px); contain: strict;"></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar vertical" style="position: absolute;"><div class="slider" style="position: absolute; top: 0px; left: 0px; width: 10px; transform: translate3d(0px, 0px, 0px); contain: strict;"></div></div><div class="shadow"></div><div class="shadow"></div><div class="shadow"></div></div></div></div></div></div> <div class="code-editor-status-bar" id="code-editor-status-bar-T98k28W3MNkMre1J" ng-class="{dark: $ctrl.isDarkTheme()}"></div> </div> </cg-ide-code-editor><!----> <!----><tio-editor-actions ng-if="!$ctrl.splitMode &amp;&amp; $ctrl.codeWrappers.length &gt; 0" class="tio-editor_actions-bar" code-wrappers="$ctrl.codeWrappers" selected-code="$ctrl.selectedCode" data-title="$ctrl.title" data-label="$ctrl.label" data-testcase="$ctrl.testcase" testsession="$ctrl.testsession"><div class="tio-editor-actions"> <button ng-click="$ctrl.resetCurrentCode()" class="tio-editor-actions_code-button tio-editor-actions_code-button-reset" translate="" translate-attr-title="tio-editor-actions.reset-code" title="Reset code"> <svg class="tio-editor-actions_code-button_icon" tio-svg="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMy45MDYiIHZpZXdCb3g9IjAgMCAyMSAyMy45MDYiPjxwYXRoIGlkPSJSZXNldF9DdXJyZW50XzI0IiBkPSJNNzg0OS41IDgwMmEzLjUgMy41IDAgMSAxLTMuNSAzLjUgMy41IDMuNSAwIDAgMSAzLjUtMy41Wm0wIDVhMS41IDEuNSAwIDEgMC0xLjUtMS41IDEuNSAxLjUgMCAwIDAgMS41IDEuNVptMTAuNS0xLjVhMTAuNTA1IDEwLjUwNSAwIDAgMS0yMS4wMSAwIDEgMSAwIDAgMSAyIDAgOC41MDUgOC41MDUgMCAxIDAgOC41My04LjQxOWgtLjE0bDEuMjggMS4yNzJhMSAxIDAgMCAxIDAgMS40MDkgMSAxIDAgMCAxLS43MS4yOTIuOTgyLjk4MiAwIDAgMS0uNy0uMjkybC0yLjk5LTIuOTg5YTEgMSAwIDAgMSAwLTEuNDA5bDIuOTktMi45ODhhMSAxIDAgMCAxIDEuNDEgMS40MDlsLTEuMzEgMS4zaC4xN0ExMC40NTcgMTAuNDU3IDAgMCAxIDc4NjAgODA1LjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNzgzOSAtNzkyLjA5NCkiIHN0eWxlPSJmaWxsOiM0MWEzZDA7ZmlsbC1ydWxlOmV2ZW5vZGQiLz48L3N2Zz4=#Reset_Current_24" viewBox="0 0 21 23.906"> <path id="Reset_Current_24" d="M7849.5 802a3.5 3.5 0 1 1-3.5 3.5 3.5 3.5 0 0 1 3.5-3.5Zm0 5a1.5 1.5 0 1 0-1.5-1.5 1.5 1.5 0 0 0 1.5 1.5Zm10.5-1.5a10.505 10.505 0 0 1-21.01 0 1 1 0 0 1 2 0 8.505 8.505 0 1 0 8.53-8.419h-.14l1.28 1.272a1 1 0 0 1 0 1.409 1 1 0 0 1-.71.292.982.982 0 0 1-.7-.292l-2.99-2.989a1 1 0 0 1 0-1.409l2.99-2.988a1 1 0 0 1 1.41 1.409l-1.31 1.3h.17A10.457 10.457 0 0 1 7860 805.5Z" transform="translate(-7839 -792.094)" style="fill:#41a3d0;fill-rule:evenodd"></path></svg> </button> <div class="tio-editor-actions_embed-wrapper"> <button ng-click="$ctrl.toggleEmbed()" class="tio-editor-actions_code-button tio-editor-actions_code-button-embed" translate="" translate-attr-title="tio-editor-actions.embed-code" title="Embed this exercise"> <svg class="tio-editor-actions_code-button_icon" tio-svg="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDE0Ij48cGF0aCBpZD0iRW1iZWRfMjQiIGQ9Ik04OTA1IDIzMDlhLjk5Mi45OTIgMCAwIDEtLjcxLS4zbC02LTZhMSAxIDAgMCAxIDAtMS40MWw2LTZhMS4wMDggMS4wMDggMCAwIDEgMS40MiAwIDEgMSAwIDAgMSAwIDEuNDFsLTUuMyA1LjMgNS4zIDUuMjlhMSAxIDAgMCAxIDAgMS40MSAxLjAxIDEuMDEgMCAwIDEtLjcxLjNabTEwIDBhMS4wMDUgMS4wMDUgMCAwIDEtLjcxLTEuNzFsNS4yOS01LjI5LTUuMjktNS4zYTEgMSAwIDAgMSAxLjQxLTEuNDFsNiA2YTEgMSAwIDAgMSAwIDEuNDFsLTYgNmEuOTcuOTcgMCAwIDEtLjcuM1ptLTMuNDgtMTIuODktMS44NyAxMi40NGEuOS45IDAgMCAxLTEuMTUuNGMtLjUzLS4xNC0uNjYtMS4yNC0uNS0xLjk1bDEuNTgtMTEuNDFhLjg4Mi44ODIgMCAwIDEgMS4xNC0uMzkuODkzLjg5MyAwIDAgMSAuOC45MVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04ODk4IC0yMjk1KSIgc3R5bGU9ImZpbGw6IzQxYTNkMDtmaWxsLXJ1bGU6ZXZlbm9kZCIvPjwvc3ZnPg==#Embed_24" viewBox="0 0 24 14"> <path id="Embed_24" d="M8905 2309a.992.992 0 0 1-.71-.3l-6-6a1 1 0 0 1 0-1.41l6-6a1.008 1.008 0 0 1 1.42 0 1 1 0 0 1 0 1.41l-5.3 5.3 5.3 5.29a1 1 0 0 1 0 1.41 1.01 1.01 0 0 1-.71.3Zm10 0a1.005 1.005 0 0 1-.71-1.71l5.29-5.29-5.29-5.3a1 1 0 0 1 1.41-1.41l6 6a1 1 0 0 1 0 1.41l-6 6a.97.97 0 0 1-.7.3Zm-3.48-12.89-1.87 12.44a.9.9 0 0 1-1.15.4c-.53-.14-.66-1.24-.5-1.95l1.58-11.41a.882.882 0 0 1 1.14-.39.893.893 0 0 1 .8.91Z" transform="translate(-8898 -2295)" style="fill:#41a3d0;fill-rule:evenodd"></path></svg> </button> <!----> </div> </div> </tio-editor-actions><!----> </div> </div></tio-editor><!----> <tio-play-button on-play="$ctrl.testcase.play()" on-stop="$ctrl.testcase.stopPlay()" play-status="$ctrl.getPlayButtonStatus()" status-progress="$ctrl.testcase.result.currentStatus.progress" techio-logo-url="$ctrl.techioLogoUrl"><div class="tio-play-button with-logo" ng-class="{&#39;with-logo&#39;: $ctrl.techioLogoUrl != null}"> <button class="tio-play-button_play-button success" ng-click="$ctrl.onPlay()" ng-disabled="$ctrl.isRunning" ng-class="{
+			&#39;is-running&#39;: $ctrl.isRunning,
+			&#39;success&#39;: $ctrl.isSuccess,
+			&#39;failure&#39;: $ctrl.isFailure
+		}"> <div class="tio-play-button_play-button_wrapper"> <svg ng-show="$ctrl.isRunning &amp;&amp; $ctrl.playStatus !== &#39;LONG_LIVING&#39;" class="tio-play-button_spinner ng-hide" tio-svg="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBpZD0iTG9hZGVyXzI0IiBkPSJNMTA4NTcgMzAxLjkzNmExLjk5NCAxLjk5NCAwIDEgMSAyLTEuOTk0IDIgMiAwIDAgMS0yIDEuOTk0Wm04LTExLjk2N2EyIDIgMCAxIDEgMiAxLjk5NCAyIDIgMCAwIDEtMi0xLjk5NFptLTIwIDBhMiAyIDAgMSAxIDIgMS45OTQgMiAyIDAgMCAxLTItMS45OTRabTMuNSA4LjQ2MmExLjk4NyAxLjk4NyAwIDEgMSAyLjggMCAxLjk1NyAxLjk1NyAwIDAgMS0yLjggMFptMTQuMi0yLjgxOWExLjk4NyAxLjk4NyAwIDEgMSAwIDIuODIgMS45NyAxLjk3IDAgMCAxIDAtMi44MlptLTE0LjItMTQuMTA2YTEuOTg3IDEuOTg3IDAgMSAxIDAgMi44MjEgMS45NyAxLjk3IDAgMCAxIDAtMi44MjFabTcuMi0uMTcyYTEuOTg3IDEuOTg3IDAgMSAxIDIuOCAwIDEuOTU4IDEuOTU4IDAgMCAxLTIuOCAwWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwODQ1IC0yNzcuOTM4KSIgc3R5bGU9ImZpbGw6I2ZmZjtmaWxsLXJ1bGU6ZXZlbm9kZCIvPjwvc3ZnPg==#Loader_24" viewBox="0 0 24 24"> <path id="Loader_24" d="M10857 301.936a1.994 1.994 0 1 1 2-1.994 2 2 0 0 1-2 1.994Zm8-11.967a2 2 0 1 1 2 1.994 2 2 0 0 1-2-1.994Zm-20 0a2 2 0 1 1 2 1.994 2 2 0 0 1-2-1.994Zm3.5 8.462a1.987 1.987 0 1 1 2.8 0 1.957 1.957 0 0 1-2.8 0Zm14.2-2.819a1.987 1.987 0 1 1 0 2.82 1.97 1.97 0 0 1 0-2.82Zm-14.2-14.106a1.987 1.987 0 1 1 0 2.821 1.97 1.97 0 0 1 0-2.821Zm7.2-.172a1.987 1.987 0 1 1 2.8 0 1.958 1.958 0 0 1-2.8 0Z" transform="translate(-10845 -277.938)" style="fill:#fff;fill-rule:evenodd"></path></svg> <span class="tio-play-button_label" translate="tioPlayButton.status.SUCCESS" translate-values="{progress: ($ctrl.statusProgress * 100 | number:0)}">Success!</span> </div> </button> <!----> <!----><a ng-if="$ctrl.techioLogoUrl" class="tio-play-button_techio-logo" ng-href="https://tech.io" target="_blank" rel="noopener" href="https://tech.io/"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAVCAMAAADGtsa9AAABTVBMVEVHcEz///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+TP3goAAAAbnRSTlMAIogRqt3MM3fuf/VEgX6Au5lVBMX+Bgpz8I/GlBTmZf3Kacf7AgwB4QeHhfaEi/KJtEJI4oqTY0zAA1/zGfl2Rtpt1D7jQyTcGFDBXew81mTqK5LVFuQ0BfwtDhLpWGtgug33KTGfnu8qZ9h7ZiVFKSIAAAH+SURBVDjLtdJFc+NAFIXRT1JjrCTGcCZMw8zMzMzMc///chaSHTuxq2Yzb9F6Ur9TdVvV4KyrQ2pdIM1JA3maWGvrf6ytJom1tp5Y6wLd5ayt4TJCgOi9Ja2Bq4cU60iDj0AwhJqPgI9krt7to8f5NM1sBtF7R/QQTO5y53KX+xgCwfha8DEEfIRgenwILsPVAhBttV56bC2EYCm8rRq2+D2TQ21vPcGWWcAEMAETfR4N7fzWt/NjAsBu7WvnNwFvOj6pGmMgWLABH43JgyFUfTQm99FUUwD2VnYV3hiblD4pjuQTgAwywHsPGSRF533S8/tJvC+n/2N9TFb/YWpYRQ31tHB8el7zSzdhWEP0rsw+uiPFmScAaldPy5GiO9ygeO9eHz4tNne8BEZLM7LpR+CUpOgmWwfZ7sevS7r3uCWtv4LO3uYTGjuko2OMH6KPn5Ae3IVnb6SJAf6qdOlk2W/zC9IcwFtpYasvT78oTbHpO98lQUW6BvBaigP8RWlmoD8tJQA3pMqA/JelK+M9+bv6E9IowDmp2c+vrrB2QfqQrHz5vdbHH5POzm2M3a5I9/vl1xScfyGpJf1s7xY3RxI0mpKWlyU1x/r6A8D7T5Kk7xt97s/srWJu+kyRalQjAOws/X6Az19/Vda//YCJ1khnppxsLDYrlaV3z4G/Bj+ht1GvLr8AAAAASUVORK5CYII="> </a><!----> </div> </tio-play-button> <div class="play-result"> <!----><tio-play-result result="$ctrl.testcase.result" codes="$ctrl.testcase.codes" ng-if="$ctrl.testcase.result"><!----><div class="tio-play-result" ng-if="$ctrl.result"> <!----> <!----> <!----><div ng-if="$ctrl.shouldDisplayReport()"> <!----> <!----> <!----> <!----><div class="tio-play-result_section" ng-repeat="(stream, content) in $ctrl.result.streams" tio-scrollintoview-on-change="content" tio-scroll-max-height="322" tio-scroll-disabled="$ctrl.result.viewers.length &gt; 0"> <div class="tio-play-result_section-header"> <h3 class="tio-play-result_section-title"> <svg class="tio-play-result_section-title-icon" tio-svg="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDE4IDI0Ij48cGF0aCBpZD0iTG9nc18yNCIgZD0iTTg1ODggNDE4aC0xNmExIDEgMCAwIDEtMS0xdi0yMGExIDEgMCAwIDEgMS0xaDN2LTFhMSAxIDAgMCAxIDEtMWg4YTEgMSAwIDAgMSAxIDF2MWgzYTEgMSAwIDAgMSAxIDF2MjBhMSAxIDAgMCAxLTEgMVptLTUtMjJoLTZ2LjVhLjU1Ny41NTcgMCAwIDAgLjU5LjVoNC44MWEuNTYxLjU2MSAwIDAgMCAuNi0uNXYtLjVabTQgMmgtMi41M2EyLjYzIDIuNjMgMCAwIDEtMi4wNyAxaC00LjgxYTIuNjEgMi42MSAwIDAgMS0yLjA2LTFIODU3M3YxOGgxNHYtMThabS0xMi43MSAxMi4yOTRhLjk5NC45OTQgMCAwIDEgMS40MSAwbC4zLjI5Mi4yOS0uMjkyYTEgMSAwIDAgMSAxLjQxIDEuNDE0bC0uMjkuMjkyLjI5LjI5M2ExIDEgMCAwIDEgMCAxLjQxNC45NzkuOTc5IDAgMCAxLS43LjI5MyAxIDEgMCAwIDEtLjcxLS4yOTNsLS4yOS0uMjkyLS4zLjI5MmEuOTc5Ljk3OSAwIDAgMS0uNy4yOTMgMSAxIDAgMCAxLS43MS0xLjcwN2wuMjktLjI5My0uMjktLjI5MmExIDEgMCAwIDEgMC0xLjQxNVptMS45NS0xLjI5NGgtLjAyYTEuMDE3IDEuMDE3IDAgMCAxLS43My0uMzEzbC0xLjIyLTEuMjkzYTEgMSAwIDAgMSAxLjQ1LTEuMzc0bC40OC41IDEuMDUtMS4xODVhMSAxIDAgMSAxIDEuNDkgMS4zMjhsLTEuNzcgMmExIDEgMCAwIDEtLjczLjMzN1ptNC43Ni04aDRhMSAxIDAgMCAxIDAgMmgtNGExIDEgMCAwIDEgMC0yWm0wIDVoNGExIDEgMCAwIDEgMCAyaC00YTEgMSAwIDAgMSAwLTJabTAgNWg0YTEgMSAwIDAgMSAwIDJoLTRhMSAxIDAgMCAxIDAtMlptLTQuMDMtNy4zMzZhMSAxIDAgMCAxLS43My4zMzZoLS4wMmExLjAxNyAxLjAxNyAwIDAgMS0uNzMtLjMxM2wtMS4yMi0xLjI5M2ExIDEgMCAwIDEgMS40NS0xLjM3NGwuNDguNSAxLjA1LTEuMTg1YTEgMSAwIDEgMSAxLjQ5IDEuMzI4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg1NzEgLTM5NCkiIHN0eWxlPSJmaWxsOiNmN2MzMjc7ZmlsbC1ydWxlOmV2ZW5vZGQiLz48L3N2Zz4=#Logs_24" viewBox="0 0 18 24"><path id="Logs_24" d="M8588 418h-16a1 1 0 0 1-1-1v-20a1 1 0 0 1 1-1h3v-1a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v1h3a1 1 0 0 1 1 1v20a1 1 0 0 1-1 1Zm-5-22h-6v.5a.557.557 0 0 0 .59.5h4.81a.561.561 0 0 0 .6-.5v-.5Zm4 2h-2.53a2.63 2.63 0 0 1-2.07 1h-4.81a2.61 2.61 0 0 1-2.06-1H8573v18h14v-18Zm-12.71 12.294a.994.994 0 0 1 1.41 0l.3.292.29-.292a1 1 0 0 1 1.41 1.414l-.29.292.29.293a1 1 0 0 1 0 1.414.979.979 0 0 1-.7.293 1 1 0 0 1-.71-.293l-.29-.292-.3.292a.979.979 0 0 1-.7.293 1 1 0 0 1-.71-1.707l.29-.293-.29-.292a1 1 0 0 1 0-1.415Zm1.95-1.294h-.02a1.017 1.017 0 0 1-.73-.313l-1.22-1.293a1 1 0 0 1 1.45-1.374l.48.5 1.05-1.185a1 1 0 1 1 1.49 1.328l-1.77 2a1 1 0 0 1-.73.337Zm4.76-8h4a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2Zm0 5h4a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2Zm0 5h4a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2Zm-4.03-7.336a1 1 0 0 1-.73.336h-.02a1.017 1.017 0 0 1-.73-.313l-1.22-1.293a1 1 0 0 1 1.45-1.374l.48.5 1.05-1.185a1 1 0 1 1 1.49 1.328Z" transform="translate(-8571 -394)" style="fill:#f7c327;fill-rule:evenodd"></path></svg> <!----><span class="tio-play-result_section-title-label" ng-if="stream === &#39;err&#39; || stream === &#39;out&#39;" translate="tioCourseTestcaseResult.std.err">Standard Error</span><!----> <!----> </h3> </div> <tio-bind-stream class="tio-play-result_stream-content" content="content" codes="$ctrl.codes"> <pre class="tio-bind-stream" scroll-glue="" ng-bind-html="$ctrl.htmlContent"><a class="file-link" data-file="ExamplesSearch.java" data-line="6" data-column="null">ExamplesSearch.java:6</a>: error: &lt;identifier&gt; expected
+  boolean matchesKeyword (id){
+                            ^
+1 error
+</pre> </tio-bind-stream> </div><!----> </div><!----> </div><!----> </tio-play-result><!----> </div> </div></tio-course-testcase> </div></playground-widget></div></div><div class="spacer"></div><tio-navigation-footer><!----></tio-navigation-footer><img height="1" width="1" style="display:none" alt="" src="./adsct"> <img height="1" width="1" style="display:none" alt="" src="./adsct(1)"><script defer="defer" src="./runtime_app.e9c746a5.js.download"></script><script defer="defer" src="./app.3d9fb645.js.download"></script><div class="context-view" aria-hidden="true" style="display: none;"></div><div class="monaco-aria-container"><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-status" role="complementary" aria-live="polite" aria-atomic="true"></div><div class="monaco-status" role="complementary" aria-live="polite" aria-atomic="true"></div></div></body></html>
