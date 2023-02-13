@@ -37,6 +37,16 @@ h1 {
     background-color: transparent;
     
 }
+
+#animation-container{
+    position: relative; 
+    height: 100vh;
+    /*border: 5px solid red;*/
+}
+
+#animeFrog {
+    height: 50vh;
+}
 .general { 
     display: flex;
     /*border: 2px solid red;*/
