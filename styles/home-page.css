@@ -1,5 +1,5 @@
 body {
-    background: repeat-y top/ cover url("../imgs/cottagecore.jpg"); /*path doesn't work on github preview ("./" works there but not locally */
+    background: repeat-y top/ cover url("./imgs/cottagecore.jpg"); /*"../"path doesn't work on github preview ("./" works there but not locally */
 }
 
 button {
